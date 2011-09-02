@@ -1,0 +1,381 @@
+[Tue Jul 26 11:40:59 2011] [info] Server listening (http://*:3000)
+[Sun Aug  7 02:27:12 2011] [info] Server listening (http://*:3000)
+[Sun Aug  7 02:27:17 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sun Aug  7 02:27:17 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Sun Aug  7 02:27:17 2011] [debug] Template "not_found.development.html.ep" not found.
+[Sun Aug  7 02:27:17 2011] [debug] Template "not_found.html.ep" not found.
+[Sun Aug  7 02:27:17 2011] [debug] Rendering inline template.
+[Sun Aug  7 02:27:17 2011] [debug] 404 Not Found (0.089630s, 11.157/s).
+[Tue Aug  9 02:40:00 2011] [info] Server listening (http://*:3000)
+[Tue Aug  9 02:40:09 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug  9 02:40:09 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Tue Aug  9 02:40:09 2011] [debug] Template "not_found.development.html.ep" not found.
+[Tue Aug  9 02:40:09 2011] [debug] Template "not_found.html.ep" not found.
+[Tue Aug  9 02:40:09 2011] [debug] Rendering inline template.
+[Tue Aug  9 02:40:09 2011] [debug] 404 Not Found (0.060160s, 16.622/s).
+[Tue Aug  9 02:42:00 2011] [debug] GET / (Mozilla/5.0(Linux;U;Android2.2.1;Zh_cn;SmartQT10;768*1024;)AppleWebKit/528.5+ (KHTML) Version/3.1.2/UCWEB7.8.0.95/139/355).
+[Tue Aug  9 02:42:00 2011] [debug] Template "not_found.development.html.ep" not found.
+[Tue Aug  9 02:42:00 2011] [debug] Template "not_found.html.ep" not found.
+[Tue Aug  9 02:42:00 2011] [debug] 404 Not Found (0.019102s, 52.351/s).
+[Tue Aug  9 02:51:52 2011] [debug] GET /welcome (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Tue Aug  9 02:51:52 2011] [debug] Dispatching "FbM::Example->welcome".
+[Tue Aug  9 02:51:52 2011] [debug] Rendering template "example/welcome.html.ep".
+[Tue Aug  9 02:51:52 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Aug  9 02:51:52 2011] [debug] 200 OK (0.098147s, 10.189/s).
+[Tue Aug  9 02:52:01 2011] [debug] GET /welcome (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Tue Aug  9 02:52:01 2011] [debug] Dispatching "FbM::Example->welcome".
+[Tue Aug  9 02:52:01 2011] [debug] 200 OK (0.005382s, 185.805/s).
+[Tue Aug  9 02:52:02 2011] [debug] GET /welcome (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Tue Aug  9 02:52:02 2011] [debug] Dispatching "FbM::Example->welcome".
+[Tue Aug  9 02:52:02 2011] [debug] 200 OK (0.005347s, 187.021/s).
+[Wed Aug 10 01:18:49 2011] [info] Server listening (http://*:3000)
+[Wed Aug 10 01:18:55 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Aug 10 01:18:55 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Wed Aug 10 01:18:55 2011] [debug] Template "not_found.development.html.ep" not found.
+[Wed Aug 10 01:18:55 2011] [debug] Template "not_found.html.ep" not found.
+[Wed Aug 10 01:18:55 2011] [debug] Rendering inline template.
+[Wed Aug 10 01:18:55 2011] [debug] 404 Not Found (0.043218s, 23.139/s).
+[Wed Aug 10 01:28:00 2011] [info] Server listening (http://*:3000)
+[Wed Aug 10 01:28:19 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Aug 10 01:28:19 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Wed Aug 10 01:28:19 2011] [debug] Template "not_found.development.html.ep" not found.
+[Wed Aug 10 01:28:19 2011] [debug] Template "not_found.html.ep" not found.
+[Wed Aug 10 01:28:19 2011] [debug] Rendering inline template.
+[Wed Aug 10 01:28:19 2011] [debug] 404 Not Found (0.043143s, 23.179/s).
+[Wed Aug 10 01:44:30 2011] [info] Server listening (http://*:3000)
+[Wed Aug 10 01:44:34 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Aug 10 01:44:34 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Wed Aug 10 01:44:34 2011] [debug] Dispatching "FbM::Show->list".
+[Wed Aug 10 01:44:34 2011] [error] Global symbol "$self" requires explicit package name at ../lib/FbM/Show.pm line 8.
+Compilation failed in require at (eval 253) line 1.
+
+[Wed Aug 10 01:44:34 2011] [error] Global symbol "$self" requires explicit package name at ../lib/FbM/Show.pm line 8.
+Compilation failed in require at (eval 253) line 1.
+
+[Wed Aug 10 01:44:34 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Aug 10 01:44:34 2011] [debug] Template "exception.html.ep" not found.
+[Wed Aug 10 01:44:34 2011] [debug] Rendering inline template.
+[Wed Aug 10 01:44:34 2011] [debug] 500 Internal Server Error (0.141853s, 7.050/s).
+[Wed Aug 10 01:45:02 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Wed Aug 10 01:45:02 2011] [debug] Dispatching "FbM::Show->list".
+[Wed Aug 10 01:45:02 2011] [error] Can't locate object method "list" via package "FbM::Show" at /usr/local/lib/perl5/site_perl/5.14.1/Mojolicious/Routes.pm line 418
+
+[Wed Aug 10 01:45:02 2011] [error] Can't locate object method "list" via package "FbM::Show" at /usr/local/lib/perl5/site_perl/5.14.1/Mojolicious/Routes.pm line 418
+
+[Wed Aug 10 01:45:02 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Aug 10 01:45:02 2011] [debug] Template "exception.html.ep" not found.
+[Wed Aug 10 01:45:02 2011] [debug] Rendering inline template.
+[Wed Aug 10 01:45:02 2011] [debug] 500 Internal Server Error (0.127530s, 7.841/s).
+[Wed Aug 10 01:45:02 2011] [error] Can't locate object method "list" via package "FbM::Show" at /usr/local/lib/perl5/site_perl/5.14.1/Mojolicious/Routes.pm line 418
+
+[Wed Aug 10 01:45:18 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Wed Aug 10 01:45:18 2011] [debug] Dispatching "FbM::Show->list".
+[Wed Aug 10 01:45:19 2011] [error] Can't locate object method "list" via package "FbM::Show" at /usr/local/lib/perl5/site_perl/5.14.1/Mojolicious/Routes.pm line 418
+
+[Wed Aug 10 01:45:19 2011] [error] Can't locate object method "list" via package "FbM::Show" at /usr/local/lib/perl5/site_perl/5.14.1/Mojolicious/Routes.pm line 418
+
+[Wed Aug 10 01:45:19 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Aug 10 01:45:19 2011] [debug] Template "exception.html.ep" not found.
+[Wed Aug 10 01:45:19 2011] [debug] 500 Internal Server Error (0.069430s, 14.403/s).
+[Wed Aug 10 01:45:19 2011] [error] Can't locate object method "list" via package "FbM::Show" at /usr/local/lib/perl5/site_perl/5.14.1/Mojolicious/Routes.pm line 418
+
+[Wed Aug 10 01:56:47 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Wed Aug 10 01:56:47 2011] [debug] Dispatching "FbM::Show->list".
+[Wed Aug 10 01:56:47 2011] [error] Can't locate object method "list" via package "FbM::Show" at /usr/local/lib/perl5/site_perl/5.14.1/Mojolicious/Routes.pm line 418
+
+[Wed Aug 10 01:56:47 2011] [error] Can't locate object method "list" via package "FbM::Show" at /usr/local/lib/perl5/site_perl/5.14.1/Mojolicious/Routes.pm line 418
+
+[Wed Aug 10 01:56:47 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Aug 10 01:56:47 2011] [debug] Template "exception.html.ep" not found.
+[Wed Aug 10 01:56:47 2011] [debug] 500 Internal Server Error (0.095827s, 10.435/s).
+[Wed Aug 10 01:56:47 2011] [error] Can't locate object method "list" via package "FbM::Show" at /usr/local/lib/perl5/site_perl/5.14.1/Mojolicious/Routes.pm line 418
+
+[Wed Aug 10 01:59:08 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Wed Aug 10 01:59:08 2011] [debug] Dispatching "FbM::Show->list".
+[Wed Aug 10 01:59:08 2011] [error] Can't locate object method "list" via package "FbM::Show" at /usr/local/lib/perl5/site_perl/5.14.1/Mojolicious/Routes.pm line 418
+
+[Wed Aug 10 01:59:08 2011] [error] Can't locate object method "list" via package "FbM::Show" at /usr/local/lib/perl5/site_perl/5.14.1/Mojolicious/Routes.pm line 418
+
+[Wed Aug 10 01:59:08 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Aug 10 01:59:08 2011] [debug] Template "exception.html.ep" not found.
+[Wed Aug 10 01:59:08 2011] [debug] 500 Internal Server Error (0.069964s, 14.293/s).
+[Wed Aug 10 01:59:08 2011] [error] Can't locate object method "list" via package "FbM::Show" at /usr/local/lib/perl5/site_perl/5.14.1/Mojolicious/Routes.pm line 418
+
+[Wed Aug 10 01:59:21 2011] [info] Server listening (http://*:3000)
+[Wed Aug 10 01:59:25 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Aug 10 01:59:25 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Wed Aug 10 01:59:25 2011] [debug] Dispatching "FbM::Show->list".
+[Wed Aug 10 01:59:25 2011] [debug] 200 OK (0.004014s, 249.128/s).
+[Wed Aug 10 23:34:16 2011] [info] Server listening (http://*:3000)
+[Thu Aug 11 00:09:37 2011] [info] Server listening (http://*:3000)
+[Thu Aug 11 00:09:48 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Aug 11 00:09:48 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Thu Aug 11 00:09:48 2011] [debug] Dispatching "FbM::Show->list".
+[Thu Aug 11 00:09:48 2011] [debug] 200 OK (0.004518s, 221.337/s).
+[Thu Aug 11 00:10:35 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Thu Aug 11 00:10:35 2011] [debug] Dispatching "FbM::Show->list".
+[Thu Aug 11 00:10:35 2011] [debug] 200 OK (0.002933s, 340.948/s).
+[Thu Aug 11 00:10:39 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Thu Aug 11 00:10:39 2011] [debug] Dispatching "FbM::Show->list".
+[Thu Aug 11 00:10:39 2011] [debug] 200 OK (0.001303s, 767.460/s).
+[Thu Aug 11 00:11:38 2011] [info] Server listening (http://*:3000)
+[Thu Aug 11 00:12:40 2011] [info] Server listening (http://*:3000)
+[Thu Aug 11 00:12:45 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Aug 11 00:12:45 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Thu Aug 11 00:12:45 2011] [debug] Dispatching "FbM::Show->list".
+[Thu Aug 11 00:12:45 2011] [debug] 200 OK (0.022272s, 44.899/s).
+[Thu Aug 11 00:13:00 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Aug 11 00:13:00 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Thu Aug 11 00:13:00 2011] [debug] Dispatching "FbM::Show->list".
+[Thu Aug 11 00:13:00 2011] [debug] 200 OK (0.015151s, 66.002/s).
+[Fri Aug 12 01:48:13 2011] [info] Server listening (http://*:3000)
+[Fri Aug 12 01:48:18 2011] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 12 01:48:18 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Fri Aug 12 01:48:18 2011] [debug] Dispatching "FbM::Show->list".
+[Fri Aug 12 01:48:18 2011] [debug] 200 OK (0.017034s, 58.706/s).
+[Fri Aug 12 01:49:01 2011] [debug] GET /perldoc (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Fri Aug 12 01:49:01 2011] [debug] Dispatching callback.
+[Fri Aug 12 01:49:02 2011] [debug] Rendering inline template.
+[Fri Aug 12 01:49:02 2011] [debug] Rendering inline template.
+[Fri Aug 12 01:49:02 2011] [debug] 200 OK (0.252939s, 3.954/s).
+[Fri Aug 12 02:00:56 2011] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 12 02:00:56 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Fri Aug 12 02:00:56 2011] [debug] Dispatching "FbM::Show->list".
+[Fri Aug 12 02:00:56 2011] [error] Bareword "pro" not allowed while "strict subs" in use at script/../lib/FbM/Show.pm line 9.
+Compilation failed in require at (eval 255) line 1.
+
+[Fri Aug 12 02:00:56 2011] [error] Bareword "pro" not allowed while "strict subs" in use at script/../lib/FbM/Show.pm line 9.
+Compilation failed in require at (eval 255) line 1.
+
+[Fri Aug 12 02:00:56 2011] [debug] Template "exception.development.html.ep" not found.
+[Fri Aug 12 02:00:56 2011] [debug] Template "exception.html.ep" not found.
+[Fri Aug 12 02:00:56 2011] [debug] Rendering inline template.
+[Fri Aug 12 02:00:56 2011] [debug] 500 Internal Server Error (0.137736s, 7.260/s).
+[Fri Aug 12 02:02:57 2011] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 12 02:02:57 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Fri Aug 12 02:02:57 2011] [debug] Dispatching "FbM::Show->list".
+[Fri Aug 12 02:02:57 2011] [debug] 200 OK (0.015740s, 63.532/s).
+[Fri Aug 12 02:05:49 2011] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 12 02:05:49 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Fri Aug 12 02:05:49 2011] [debug] Dispatching "FbM::Show->list".
+[Fri Aug 12 02:05:49 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Fri Aug 12 02:25:44 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Fri Aug 12 02:25:44 2011] [debug] Dispatching "FbM::Show->list".
+[Fri Aug 12 02:25:44 2011] [debug] 200 OK (0.003721s, 268.745/s).
+[Fri Aug 12 02:27:54 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Fri Aug 12 02:27:54 2011] [debug] Dispatching "FbM::Show->list".
+[Fri Aug 12 02:27:54 2011] [debug] 200 OK (0.003637s, 274.952/s).
+[Fri Aug 12 02:27:57 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Fri Aug 12 02:27:57 2011] [debug] Dispatching "FbM::Show->list".
+[Fri Aug 12 02:27:57 2011] [debug] 200 OK (0.003605s, 277.393/s).
+[Fri Aug 12 02:29:00 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Fri Aug 12 02:29:00 2011] [debug] Dispatching "FbM::Show->list".
+[Fri Aug 12 02:29:00 2011] [debug] 200 OK (0.004090s, 244.499/s).
+[Fri Aug 12 02:29:02 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Fri Aug 12 02:29:02 2011] [debug] Dispatching "FbM::Show->list".
+[Fri Aug 12 02:29:02 2011] [debug] 200 OK (0.003666s, 272.777/s).
+[Fri Aug 12 23:30:02 2011] [info] Server listening (http://*:3000)
+[Fri Aug 12 23:36:44 2011] [debug] Your secret passphrase needs to be changed!!!
+[Fri Aug 12 23:36:44 2011] [debug] GET /welcome (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Fri Aug 12 23:36:44 2011] [debug] Dispatching "FbM::Example->welcome".
+[Fri Aug 12 23:36:44 2011] [debug] Rendering template "example/welcome.html.ep".
+[Fri Aug 12 23:36:44 2011] [debug] Rendering template "layouts/default.html.ep".
+[Fri Aug 12 23:36:44 2011] [debug] 200 OK (0.201908s, 4.953/s).
+[Fri Aug 12 23:36:54 2011] [debug] GET /welcome (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Fri Aug 12 23:36:54 2011] [debug] Dispatching "FbM::Example->welcome".
+[Fri Aug 12 23:36:54 2011] [debug] 200 OK (0.005809s, 172.147/s).
+[Fri Aug 12 23:37:02 2011] [debug] GET /welcome/dan (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Fri Aug 12 23:37:02 2011] [debug] Rendering inline template.
+[Fri Aug 12 23:37:02 2011] [debug] 404 Not Found (0.048772s, 20.504/s).
+[Fri Aug 12 23:37:08 2011] [debug] GET /welcome/ (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Fri Aug 12 23:37:08 2011] [debug] Dispatching "FbM::Example->welcome".
+[Fri Aug 12 23:37:08 2011] [debug] 200 OK (0.006572s, 152.161/s).
+[Fri Aug 12 23:45:31 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Fri Aug 12 23:45:31 2011] [debug] Dispatching "FbM::Show->list".
+[Fri Aug 12 23:45:31 2011] [debug] 200 OK (0.006074s, 164.636/s).
+[Mon Aug 15 02:16:28 2011] [info] Server listening (http://*:3000)
+[Mon Aug 15 02:16:38 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 15 02:16:38 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:16:38 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 02:16:38 2011] [debug] 200 OK (0.036981s, 27.041/s).
+[Mon Aug 15 02:16:43 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:16:43 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 02:16:43 2011] [debug] 200 OK (0.003916s, 255.363/s).
+[Mon Aug 15 02:17:29 2011] [info] Server listening (http://*:3000)
+[Mon Aug 15 02:17:33 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 15 02:17:33 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:17:33 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 02:17:33 2011] [debug] 200 OK (0.027691s, 36.113/s).
+[Mon Aug 15 02:17:36 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:17:36 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 02:17:36 2011] [debug] 200 OK (0.004690s, 213.220/s).
+[Mon Aug 15 02:17:47 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 15 02:17:47 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:17:47 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 02:17:47 2011] [debug] 200 OK (0.087925s, 11.373/s).
+[Mon Aug 15 02:17:49 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:17:49 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 02:17:49 2011] [debug] 200 OK (0.004817s, 207.598/s).
+[Mon Aug 15 02:18:04 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 15 02:18:04 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:18:04 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 02:18:04 2011] [debug] 200 OK (0.017311s, 57.767/s).
+[Mon Aug 15 02:18:29 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 15 02:18:29 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:18:29 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 02:18:29 2011] [debug] 200 OK (0.017204s, 58.126/s).
+[Mon Aug 15 02:20:44 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:20:44 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 02:20:44 2011] [debug] 200 OK (0.003633s, 275.255/s).
+[Mon Aug 15 02:34:41 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:34:41 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 02:34:41 2011] [debug] 200 OK (0.003344s, 299.043/s).
+[Mon Aug 15 02:35:01 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:35:01 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 02:35:01 2011] [debug] 200 OK (0.003308s, 302.297/s).
+[Mon Aug 15 02:35:04 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:35:04 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 02:35:04 2011] [debug] 200 OK (0.003434s, 291.206/s).
+[Mon Aug 15 02:36:20 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:36:20 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 02:36:20 2011] [debug] 200 OK (0.003306s, 302.480/s).
+[Mon Aug 15 02:37:40 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 15 02:37:40 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:37:40 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 02:37:40 2011] [debug] 200 OK (0.011712s, 85.383/s).
+[Mon Aug 15 02:38:51 2011] [debug] GET /%D1%86%D1%83%D0%B4%D1%81%D1%89%D1%8C%D1%83 (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:38:51 2011] [debug] Rendering inline template.
+[Mon Aug 15 02:38:51 2011] [debug] 404 Not Found (0.042796s, 23.367/s).
+[Mon Aug 15 02:39:06 2011] [debug] GET /welcome (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:39:06 2011] [debug] Dispatching "FbM::Example->welcome".
+[Mon Aug 15 02:39:06 2011] [debug] Rendering template "example/welcome.html.ep".
+[Mon Aug 15 02:39:06 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Aug 15 02:39:06 2011] [debug] 200 OK (0.147252s, 6.791/s).
+[Mon Aug 15 02:41:00 2011] [debug] GET /welcome (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:41:00 2011] [debug] Dispatching "FbM::Example->welcome".
+[Mon Aug 15 02:41:00 2011] [debug] 200 OK (0.005483s, 182.382/s).
+[Mon Aug 15 02:41:05 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 02:41:05 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 02:41:05 2011] [debug] 200 OK (0.004356s, 229.568/s).
+[Mon Aug 15 03:29:19 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 03:29:19 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 03:29:19 2011] [debug] 200 OK (0.006376s, 156.838/s).
+[Mon Aug 15 03:52:32 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 15 03:52:32 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 03:52:32 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 03:52:32 2011] [debug] 200 OK (0.068717s, 14.552/s).
+[Mon Aug 15 03:52:49 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 15 03:52:49 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 03:52:49 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 03:52:49 2011] [debug] 200 OK (0.048503s, 20.617/s).
+[Mon Aug 15 03:57:17 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 15 03:57:17 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 03:57:17 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 03:57:17 2011] [debug] Rendering template "show/list.html.ep".
+[Mon Aug 15 03:57:17 2011] [debug] 200 OK (0.117940s, 8.479/s).
+[Mon Aug 15 03:57:36 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Aug 15 03:57:36 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 03:57:36 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 03:57:36 2011] [debug] Rendering template "show/list.html.ep".
+[Mon Aug 15 03:57:36 2011] [debug] 200 OK (0.081367s, 12.290/s).
+[Mon Aug 15 03:57:47 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 03:57:47 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 03:57:47 2011] [debug] 200 OK (0.002521s, 396.668/s).
+[Mon Aug 15 03:57:49 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 03:57:49 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 03:57:49 2011] [debug] 200 OK (0.002457s, 407.000/s).
+[Mon Aug 15 03:59:02 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 03:59:02 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 03:59:02 2011] [debug] 200 OK (0.002602s, 384.320/s).
+[Mon Aug 15 04:00:12 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 04:00:12 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 04:00:12 2011] [debug] 200 OK (0.002445s, 408.998/s).
+[Mon Aug 15 04:02:43 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 04:02:43 2011] [debug] Dispatching "FbM::Show->list".
+[Mon Aug 15 04:02:43 2011] [debug] 200 OK (0.002438s, 410.172/s).
+[Mon Aug 15 04:02:52 2011] [debug] GET /fb.fcgi (Mozilla/5.0 (X11; FreeBSD i386; rv:5.0) Gecko/20100101 Firefox/5.0).
+[Mon Aug 15 04:02:52 2011] [debug] Rendering inline template.
+[Mon Aug 15 04:02:52 2011] [debug] 404 Not Found (0.042547s, 23.503/s).
+[Mon Aug 15 04:04:00 2011] [info] Server listening (http://*:3000)
+[Mon Aug 15 04:10:51 2011] [info] Server listening (http://*:3000)
+[Tue Aug 30 01:32:37 2011] [info] Server listening (http://*:3000)
+[Tue Aug 30 01:32:52 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 30 01:32:52 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Tue Aug 30 01:32:52 2011] [debug] Dispatching "FastNotes::Controller::Show->list".
+[Tue Aug 30 01:32:52 2011] [debug] FastNotes::Controller::Show does not exist, maybe a typo?
+[Tue Aug 30 01:32:52 2011] [debug] 200 OK (0.113033s, 8.847/s).
+[Tue Aug 30 01:34:06 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Tue Aug 30 01:34:06 2011] [debug] Dispatching "FastNotes::Controller::Show->list".
+[Tue Aug 30 01:34:06 2011] [debug] FastNotes::Controller::Show does not exist, maybe a typo?
+[Tue Aug 30 01:34:06 2011] [debug] 200 OK (0.040974s, 24.406/s).
+[Tue Aug 30 01:34:08 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Tue Aug 30 01:34:08 2011] [debug] Dispatching "FastNotes::Controller::Show->list".
+[Tue Aug 30 01:34:08 2011] [debug] FastNotes::Controller::Show does not exist, maybe a typo?
+[Tue Aug 30 01:34:08 2011] [debug] 200 OK (0.041384s, 24.164/s).
+[Tue Aug 30 01:36:13 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0) Gecko/20100101 Firefox/6.0).
+[Tue Aug 30 01:36:13 2011] [debug] Dispatching "FastNotes::Controller::Show->list".
+[Tue Aug 30 01:36:13 2011] [debug] FastNotes::Controller::Show does not exist, maybe a typo?
+[Tue Aug 30 01:36:13 2011] [debug] 200 OK (0.041145s, 24.304/s).
+[Tue Aug 30 01:37:08 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Tue Aug 30 01:37:08 2011] [debug] Dispatching "FastNotes::Controller::Show->list".
+[Tue Aug 30 01:37:08 2011] [debug] FastNotes::Controller::Show does not exist, maybe a typo?
+[Tue Aug 30 01:37:08 2011] [debug] 200 OK (0.042359s, 23.608/s).
+[Tue Aug 30 01:55:13 2011] [info] Server listening (http://*:3000)
+[Tue Aug 30 01:55:31 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Aug 30 01:55:31 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Tue Aug 30 01:55:31 2011] [debug] Dispatching "FastNotes::Controller::Show->list".
+[Tue Aug 30 01:55:31 2011] [debug] FastNotes::Controller::Show does not exist, maybe a typo?
+[Tue Aug 30 01:55:31 2011] [debug] 200 OK (0.074043s, 13.506/s).
+[Tue Aug 30 01:55:36 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Tue Aug 30 01:55:36 2011] [debug] Dispatching "FastNotes::Controller::Show->list".
+[Tue Aug 30 01:55:37 2011] [debug] FastNotes::Controller::Show does not exist, maybe a typo?
+[Tue Aug 30 01:55:37 2011] [debug] 200 OK (0.040926s, 24.434/s).
+[Thu Sep  1 07:47:02 2011] [info] Server listening (http://*:3000)
+[Thu Sep  1 07:47:26 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep  1 07:47:26 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Thu Sep  1 07:47:26 2011] [debug] Dispatching "FastNotes::Controller::Show->list".
+[Thu Sep  1 07:47:26 2011] [debug] FastNotes::Controller::Show does not exist, maybe a typo?
+[Thu Sep  1 07:47:26 2011] [debug] 200 OK (0.076512s, 13.070/s).
+[Thu Sep  1 07:48:53 2011] [info] Server listening (http://*:3000)
+[Thu Sep  1 07:49:00 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep  1 07:49:00 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Thu Sep  1 07:49:00 2011] [debug] Dispatching "FastNotes::Controller::Show->list".
+[Thu Sep  1 07:49:00 2011] [debug] FastNotes::Controller::Show does not exist, maybe a typo?
+[Thu Sep  1 07:49:00 2011] [debug] 200 OK (0.065882s, 15.179/s).
+[Thu Sep  1 07:49:02 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Thu Sep  1 07:49:02 2011] [debug] Dispatching "FastNotes::Controller::Show->list".
+[Thu Sep  1 07:49:02 2011] [debug] FastNotes::Controller::Show does not exist, maybe a typo?
+[Thu Sep  1 07:49:02 2011] [debug] 200 OK (0.070571s, 14.170/s).
+[Thu Sep  1 07:54:55 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep  1 07:54:55 2011] [debug] GET /perldoc (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Thu Sep  1 07:54:55 2011] [debug] Dispatching callback.
+[Thu Sep  1 07:54:55 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Thu Sep  1 07:55:10 2011] [debug] GET /perldoc (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Thu Sep  1 07:55:10 2011] [debug] Dispatching callback.
+[Thu Sep  1 07:55:10 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Thu Sep  1 07:55:25 2011] [debug] GET /perldoc (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Thu Sep  1 07:55:25 2011] [debug] Dispatching callback.
+[Thu Sep  1 07:55:25 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Thu Sep  1 07:55:40 2011] [debug] GET /perldoc (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Thu Sep  1 07:55:40 2011] [debug] Dispatching callback.
+[Thu Sep  1 07:55:40 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Thu Sep  1 07:55:55 2011] [debug] GET /perldoc (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Thu Sep  1 07:55:55 2011] [debug] Dispatching callback.
+[Thu Sep  1 07:55:55 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Sat Sep  3 01:28:41 2011] [info] Server listening (http://*:3000)
+[Sat Sep  3 01:28:47 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep  3 01:28:47 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 01:28:47 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Sat Sep  3 01:28:47 2011] [debug] 200 OK (0.055061s, 18.162/s).
+[Sat Sep  3 01:29:16 2011] [debug] GET /perldoc (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 01:29:16 2011] [debug] Dispatching callback.
+[Sat Sep  3 01:29:16 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Sat Sep  3 01:29:33 2011] [debug] GET /perldoc (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 01:29:33 2011] [debug] Dispatching callback.
+[Sat Sep  3 01:29:33 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Sat Sep  3 01:29:40 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 01:29:40 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Sat Sep  3 01:29:40 2011] [debug] 200 OK (0.005713s, 175.039/s).
+[Sat Sep  3 01:29:47 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 01:29:47 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Sat Sep  3 01:29:47 2011] [debug] 200 OK (0.004536s, 220.459/s).
