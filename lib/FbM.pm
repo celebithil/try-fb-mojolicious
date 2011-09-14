@@ -17,7 +17,7 @@ sub startup {
   $r->namespace('FbM::Controller');
 
   # Normal route to controller
-  $r->route('/')->to('show#list');
+  $r->route('/')->to('show#index');
   
   
   
@@ -28,9 +28,9 @@ sub startup {
         #dsn      => "dbi:Firebird:db\=/mnt/firebird/test.fdb;ib_dialect=3;",
         dsn      => "dbi:Firebird:hostname=127.0.0.1;db=VTEST;ib_dialect=3;",
         user     => 'SYSDBA',
-        password =>'masterkey'
+        password => 'masterkey'
     });
-
+	Mojo::Loader->load('FbM::Model::Base');
 
 
 
