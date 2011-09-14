@@ -6,7 +6,7 @@ use utf8;
 
 sub list{
 	my $self = shift;
-	$self->render();
+	$self->render(sign => 'QQ!!');
 }
 
 1;

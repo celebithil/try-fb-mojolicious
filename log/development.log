@@ -379,3 +379,152 @@ Compilation failed in require at (eval 255) line 1.
 [Sat Sep  3 01:29:47 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
 [Sat Sep  3 01:29:47 2011] [debug] Dispatching "FbM::Controller::Show->list".
 [Sat Sep  3 01:29:47 2011] [debug] 200 OK (0.004536s, 220.459/s).
+[Sat Sep  3 01:49:13 2011] [info] Server listening (http://*:3000)
+[Sat Sep  3 01:49:19 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep  3 01:49:19 2011] [debug] GET /perldoc (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 01:49:19 2011] [debug] Dispatching callback.
+[Sat Sep  3 01:49:20 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Sat Sep  3 01:49:34 2011] [debug] GET /perldoc (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 01:49:34 2011] [debug] Dispatching callback.
+[Sat Sep  3 01:49:34 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Sat Sep  3 01:49:49 2011] [debug] GET /perldoc (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 01:49:49 2011] [debug] Dispatching callback.
+[Sat Sep  3 01:49:49 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Sat Sep  3 01:50:04 2011] [debug] GET /perldoc (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 01:50:04 2011] [debug] Dispatching callback.
+[Sat Sep  3 01:50:04 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Sat Sep  3 01:50:39 2011] [info] Server listening (http://*:3000)
+[Sat Sep  3 01:50:48 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep  3 01:50:48 2011] [debug] GET /perldoc (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 01:50:48 2011] [debug] Dispatching callback.
+[Sat Sep  3 01:50:48 2011] [debug] Rendering inline template.
+[Sat Sep  3 01:50:48 2011] [debug] Rendering inline template.
+[Sat Sep  3 01:50:48 2011] [debug] 200 OK (0.611001s, 1.637/s).
+[Sat Sep  3 02:15:26 2011] [info] Server listening (http://*:3000)
+[Sat Sep  3 02:15:29 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep  3 02:15:29 2011] [debug] GET /perldoc/Mojo/Template (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 02:15:29 2011] [debug] Dispatching callback.
+[Sat Sep  3 02:15:32 2011] [debug] Rendering inline template.
+[Sat Sep  3 02:15:32 2011] [debug] Rendering inline template.
+[Sat Sep  3 02:15:34 2011] [debug] 200 OK (4.706048s, 0.212/s).
+[Sat Sep  3 02:19:06 2011] [info] Server listening (http://*:3000)
+[Sat Sep  3 02:19:08 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep  3 02:19:08 2011] [debug] GET /welcome (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0) Gecko/20100101 Firefox/6.0).
+[Sat Sep  3 02:19:08 2011] [debug] Dispatching "FbM::Controller::Example->welcome".
+[Sat Sep  3 02:19:08 2011] [debug] Rendering template "example/welcome.html.ep".
+[Sat Sep  3 02:19:09 2011] [error] Global symbol "$message" requires explicit package name at template "example/welcome.html.ep" line 4, near "This page was generated from the template".
+1: % layout 'default';
+2: % title 'Welcome';
+3: Яйца!
+4: <h2><%= $message %></h2>
+5: This page was generated from the template
+6: "templates/example/welcome.html.ep" and the layout
+7: "templates/layouts/default.html.ep",
+8: <a href="<%== url_for %>">click here</a>
+9: to reload the page or
+
+[Sat Sep  3 02:19:09 2011] [debug] Template "exception.development.html.ep" not found.
+[Sat Sep  3 02:19:09 2011] [debug] Template "exception.html.ep" not found.
+[Sat Sep  3 02:19:09 2011] [debug] Rendering inline template.
+[Sat Sep  3 02:19:11 2011] [debug] 500 Internal Server Error (3.154708s, 0.317/s).
+[Sat Sep  3 02:21:25 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 02:21:25 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Sat Sep  3 02:21:25 2011] [debug] Rendering template "show/list.html.ep".
+[Sat Sep  3 02:21:25 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep  3 02:21:25 2011] [debug] 200 OK (0.044538s, 22.453/s).
+[Sat Sep  3 02:21:45 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep  3 02:21:45 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 02:21:45 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Sat Sep  3 02:21:45 2011] [debug] Rendering template "show/list.html.ep".
+[Sat Sep  3 02:21:46 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep  3 02:21:46 2011] [debug] 200 OK (0.447893s, 2.233/s).
+[Sat Sep  3 02:21:53 2011] [info] Server listening (http://*:3000)
+[Sat Sep  3 02:21:57 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep  3 02:21:57 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 02:21:57 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Sat Sep  3 02:21:57 2011] [debug] Rendering template "show/list.html.ep".
+[Sat Sep  3 02:21:57 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep  3 02:21:57 2011] [debug] 200 OK (0.229790s, 4.352/s).
+[Sat Sep  3 02:23:03 2011] [debug] GET /perldoc/Mojo/Template (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 02:23:03 2011] [debug] Dispatching callback.
+[Sat Sep  3 02:23:03 2011] [debug] Rendering inline template.
+[Sat Sep  3 02:23:03 2011] [debug] Rendering inline template.
+[Sat Sep  3 02:23:03 2011] [debug] 200 OK (0.619402s, 1.614/s).
+[Sat Sep  3 02:36:52 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep  3 02:36:52 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 02:36:52 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Sat Sep  3 02:36:52 2011] [debug] Rendering template "show/list.html.ep".
+[Sat Sep  3 02:36:52 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep  3 02:36:52 2011] [debug] 200 OK (0.100317s, 9.968/s).
+[Sat Sep  3 02:39:10 2011] [info] Server listening (http://*:3000)
+[Sat Sep  3 02:39:14 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep  3 02:39:14 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 02:39:14 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Sat Sep  3 02:39:14 2011] [debug] Rendering template "show/list.html.ep".
+[Sat Sep  3 02:39:14 2011] [error] syntax error at template "show/list.html.ep" line 5, near "<form action="fb.fcgi" method = "POST">".
+1: % layout 'default';
+2: % title 'Welcome';
+3: 
+4: <hr>
+5: <% $sign %>
+6: <form action="fb.fcgi" method = "POST">
+7: 	<p>
+8: 	<input  type="text" size ="30" name="F">Фамилия<br>
+9: 	<input 	type="text" size ="30" name="N">Имя<br>
+10: 	<input 	type="text" size ="30" name="P">Отчество<br>
+
+[Sat Sep  3 02:39:14 2011] [debug] Template "exception.development.html.ep" not found.
+[Sat Sep  3 02:39:14 2011] [debug] Template "exception.html.ep" not found.
+[Sat Sep  3 02:39:14 2011] [debug] Rendering inline template.
+[Sat Sep  3 02:39:14 2011] [debug] 500 Internal Server Error (0.331736s, 3.014/s).
+[Sat Sep  3 02:40:43 2011] [debug] Your secret passphrase needs to be changed!!!
+[Sat Sep  3 02:40:43 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.50).
+[Sat Sep  3 02:40:43 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Sat Sep  3 02:40:43 2011] [debug] Rendering template "show/list.html.ep".
+[Sat Sep  3 02:40:44 2011] [debug] Rendering template "layouts/default.html.ep".
+[Sat Sep  3 02:40:44 2011] [debug] 200 OK (1.142971s, 0.875/s).
+[Fri Sep  9 01:10:41 2011] [info] Server listening (http://*:3000)
+[Fri Sep  9 01:11:40 2011] [debug] Your secret passphrase needs to be changed!!!
+[Fri Sep  9 01:11:40 2011] [debug] GET /show (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.51).
+[Fri Sep  9 01:11:40 2011] [debug] Template "not_found.development.html.ep" not found.
+[Fri Sep  9 01:11:40 2011] [debug] Template "not_found.html.ep" not found.
+[Fri Sep  9 01:11:40 2011] [debug] Rendering inline template.
+[Fri Sep  9 01:11:40 2011] [debug] 404 Not Found (0.062613s, 15.971/s).
+[Fri Sep  9 01:11:46 2011] [debug] GET /Show (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.51).
+[Fri Sep  9 01:11:46 2011] [debug] Template "not_found.development.html.ep" not found.
+[Fri Sep  9 01:11:46 2011] [debug] Template "not_found.html.ep" not found.
+[Fri Sep  9 01:11:46 2011] [debug] 404 Not Found (0.020934s, 47.769/s).
+[Fri Sep  9 01:12:09 2011] [debug] GET / (Opera/9.80 (X11; FreeBSD 8.2-STABLE i386; U; ru) Presto/2.9.168 Version/11.51).
+[Fri Sep  9 01:12:09 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Fri Sep  9 01:12:09 2011] [debug] Rendering template "show/list.html.ep".
+[Fri Sep  9 01:12:09 2011] [debug] Rendering template "layouts/default.html.ep".
+[Fri Sep  9 01:12:09 2011] [debug] 200 OK (0.162103s, 6.169/s).
+[Fri Sep  9 01:37:53 2011] [info] Server listening (http://*:3000)
+[Wed Sep 14 13:37:58 2011] [info] Server listening (http://*:3000)
+[Wed Sep 14 13:41:19 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 14 13:41:19 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 13:41:19 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 13:41:19 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Wed Sep 14 13:41:19 2011] [debug] Rendering template "show/list.html.ep".
+[Wed Sep 14 13:41:19 2011] [debug] Rendering template "layouts/default.html.ep".
+[Wed Sep 14 13:41:19 2011] [debug] 200 OK (0.184115s, 5.431/s).
+[Wed Sep 14 13:41:33 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 13:41:33 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Wed Sep 14 13:41:33 2011] [debug] 200 OK (0.001778s, 562.430/s).
+[Wed Sep 14 13:41:35 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 13:41:35 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Wed Sep 14 13:41:36 2011] [debug] 200 OK (0.001575s, 634.921/s).
+[Wed Sep 14 13:42:04 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 13:42:04 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Wed Sep 14 13:42:04 2011] [debug] 200 OK (0.001987s, 503.271/s).
+[Wed Sep 14 13:46:04 2011] [info] Server listening (http://*:3000)
+[Wed Sep 14 13:48:04 2011] [info] Server listening (http://*:3000)
+[Wed Sep 14 13:50:14 2011] [info] Server listening (http://*:3000)
+[Wed Sep 14 14:01:17 2011] [info] Server listening (http://*:3000)
+[Wed Sep 14 14:01:38 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 14 14:01:38 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 14:01:38 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Wed Sep 14 14:01:38 2011] [debug] Rendering template "show/list.html.ep".
+[Wed Sep 14 14:01:38 2011] [debug] Rendering template "layouts/default.html.ep".
+[Wed Sep 14 14:01:38 2011] [debug] 200 OK (0.130039s, 7.690/s).
+[Wed Sep 14 14:08:02 2011] [info] Server listening (http://*:3000)
