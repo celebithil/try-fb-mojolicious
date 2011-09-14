@@ -1324,3 +1324,325 @@ syntax error at template "show/index.html.ep" line 4, near "<hr>".
 [Wed Sep 14 16:52:45 2011] [debug] Rendering template "show/index.html.ep".
 [Wed Sep 14 16:52:45 2011] [debug] Rendering template "layouts/default.html.ep".
 [Wed Sep 14 16:52:45 2011] [debug] 200 OK (0.068393s, 14.621/s).
+[Wed Sep 14 17:05:27 2011] [info] Server listening (http://*:3000)
+[Wed Sep 14 17:05:31 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 14 17:05:31 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:05:31 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:05:31 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:05:32 2011] [debug] Template "sign.html.ep" not found.
+[Wed Sep 14 17:05:32 2011] [debug] Rendering template "show/index.html.ep".
+[Wed Sep 14 17:05:32 2011] [error] Global symbol "$sign" requires explicit package name at template "show/index.html.ep" line 4, near "<hr>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: <%=$sign%>
+5: <hr>
+6: % my @alphabet = $self->stash('ABC');
+7: % for (@alphabet) {
+8: <%=$_->{SUB};%>
+9: % }
+
+[Wed Sep 14 17:05:32 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 14 17:05:32 2011] [debug] Template "exception.html.ep" not found.
+[Wed Sep 14 17:05:32 2011] [debug] Rendering inline template.
+[Wed Sep 14 17:05:32 2011] [debug] 500 Internal Server Error (0.739606s, 1.352/s).
+[Wed Sep 14 17:05:32 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:05:32 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:05:32 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:05:32 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:05:32 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:06:55 2011] [info] Server listening (http://*:3000)
+[Wed Sep 14 17:06:56 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 14 17:06:56 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:06:56 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:06:56 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:06:56 2011] [debug] Template "sign.html.ep" not found.
+[Wed Sep 14 17:06:56 2011] [debug] Rendering template "show/index.html.ep".
+[Wed Sep 14 17:06:56 2011] [debug] Rendering template "layouts/default.html.ep".
+[Wed Sep 14 17:06:56 2011] [debug] 200 OK (0.195784s, 5.108/s).
+[Wed Sep 14 17:08:33 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:08:33 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:08:33 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:08:33 2011] [debug] Template "sign.html.ep" not found.
+[Wed Sep 14 17:08:33 2011] [debug] Rendering template "show/index.html.ep".
+[Wed Sep 14 17:08:34 2011] [error] Global symbol "$sign" requires explicit package name at template "show/index.html.ep" line 5, near "<hr>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: #% my $sign = $self->stash('sign');
+5: <%=$sign%>
+6: <hr>
+7: % my @alphabet = $self->stash('ABC');
+8: % for (@alphabet) {
+9: <%=$_->{SUB};%>
+10: % }
+
+[Wed Sep 14 17:08:34 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 14 17:08:34 2011] [debug] Template "exception.html.ep" not found.
+[Wed Sep 14 17:08:34 2011] [debug] Rendering inline template.
+[Wed Sep 14 17:08:34 2011] [debug] 500 Internal Server Error (0.478109s, 2.092/s).
+[Wed Sep 14 17:08:34 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:08:34 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:08:34 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:08:34 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:08:34 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:08:44 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:08:44 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:08:44 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:08:44 2011] [debug] Template "sign.html.ep" not found.
+[Wed Sep 14 17:08:44 2011] [debug] Rendering template "show/index.html.ep".
+[Wed Sep 14 17:08:44 2011] [debug] Rendering template "layouts/default.html.ep".
+[Wed Sep 14 17:08:44 2011] [debug] 200 OK (0.058659s, 17.048/s).
+[Wed Sep 14 17:09:46 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:09:46 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:09:46 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:09:46 2011] [debug] Template "sign.html.ep" not found.
+[Wed Sep 14 17:09:46 2011] [debug] Rendering template "show/index.html.ep".
+[Wed Sep 14 17:09:46 2011] [error] Global symbol "$sign" requires explicit package name at template "show/index.html.ep" line 5, near "<hr>".
+Global symbol "@ABC" requires explicit package name at template "show/index.html.ep" line 7, near "<%=$_->{SUB};%>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <hr>
+7: % for (@ABC) {
+8: <%=$_->{SUB};%>
+9: % }
+10: 
+
+[Wed Sep 14 17:09:46 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 14 17:09:46 2011] [debug] Template "exception.html.ep" not found.
+[Wed Sep 14 17:09:46 2011] [debug] Rendering inline template.
+[Wed Sep 14 17:09:46 2011] [debug] 500 Internal Server Error (0.302621s, 3.304/s).
+[Wed Sep 14 17:09:46 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:09:46 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:09:46 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:09:46 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:09:46 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:12:59 2011] [info] Server listening (http://*:3000)
+[Wed Sep 14 17:13:02 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 14 17:13:02 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:13:02 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:13:02 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:13:02 2011] [debug] Rendering template "show/index.html.ep".
+[Wed Sep 14 17:13:03 2011] [error] Global symbol "@ABC" requires explicit package name at template "show/index.html.ep" line 7, near "<%=$_->{SUB};%>".
+2: % title 'Welcome';
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <hr>
+7: % for (@ABC) {
+8: <%=$_->{SUB};%>
+9: % }
+10: 
+11: 
+12: 
+
+[Wed Sep 14 17:13:03 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 14 17:13:03 2011] [debug] Template "exception.html.ep" not found.
+[Wed Sep 14 17:13:03 2011] [debug] Rendering inline template.
+[Wed Sep 14 17:13:03 2011] [debug] 500 Internal Server Error (0.319728s, 3.128/s).
+[Wed Sep 14 17:13:16 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:13:16 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:13:16 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:13:16 2011] [debug] Rendering template "show/index.html.ep".
+[Wed Sep 14 17:13:16 2011] [error] Not a HASH reference at template "show/index.html.ep" line 8, near "#% }".
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <hr>
+7: #% for (@ABC) {
+8: #<%=$_->{SUB};%>
+9: #% }
+10: 
+11: 
+12: 
+13: <form action="fb.fcgi" method = "POST">
+
+[Wed Sep 14 17:13:16 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 14 17:13:16 2011] [debug] Template "exception.html.ep" not found.
+[Wed Sep 14 17:13:16 2011] [debug] Rendering inline template.
+[Wed Sep 14 17:13:16 2011] [debug] 500 Internal Server Error (0.290204s, 3.446/s).
+[Wed Sep 14 17:13:33 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:13:33 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:13:33 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:13:34 2011] [error] Not a HASH reference at template "show/index.html.ep" line 8, near "#% }".
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <hr>
+7: #% for (@ABC) {
+8: #<%=$_->{SUB};%>
+9: #% }
+10: 
+11: 
+12: 
+13: <form action="fb.fcgi" method = "POST">
+
+[Wed Sep 14 17:13:34 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 14 17:13:34 2011] [debug] Template "exception.html.ep" not found.
+[Wed Sep 14 17:13:34 2011] [debug] 500 Internal Server Error (0.251438s, 3.977/s).
+[Wed Sep 14 17:13:41 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:13:41 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:13:41 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:13:41 2011] [error] Not a HASH reference at template "show/index.html.ep" line 8, near "#% }".
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <hr>
+7: #% for (@ABC) {
+8: #<%=$_->{SUB};%>
+9: #% }
+10: 
+11: 
+12: 
+13: <form action="fb.fcgi" method = "POST">
+
+[Wed Sep 14 17:13:41 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 14 17:13:41 2011] [debug] Template "exception.html.ep" not found.
+[Wed Sep 14 17:13:41 2011] [debug] 500 Internal Server Error (0.257751s, 3.880/s).
+[Wed Sep 14 17:13:43 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:13:43 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:13:43 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:13:43 2011] [error] Not a HASH reference at template "show/index.html.ep" line 8, near "#% }".
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <hr>
+7: #% for (@ABC) {
+8: #<%=$_->{SUB};%>
+9: #% }
+10: 
+11: 
+12: 
+13: <form action="fb.fcgi" method = "POST">
+
+[Wed Sep 14 17:13:43 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 14 17:13:43 2011] [debug] Template "exception.html.ep" not found.
+[Wed Sep 14 17:13:43 2011] [debug] 500 Internal Server Error (0.181567s, 5.508/s).
+[Wed Sep 14 17:13:43 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:13:43 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:13:43 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:13:44 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:13:44 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:13:56 2011] [info] Server listening (http://*:3000)
+[Wed Sep 14 17:14:02 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 14 17:14:02 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:14:02 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:14:02 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:14:02 2011] [debug] Rendering template "show/index.html.ep".
+[Wed Sep 14 17:14:02 2011] [debug] Rendering template "layouts/default.html.ep".
+[Wed Sep 14 17:14:02 2011] [debug] 200 OK (0.072607s, 13.773/s).
+[Wed Sep 14 17:15:35 2011] [info] Server listening (http://*:3000)
+[Wed Sep 14 17:15:39 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 14 17:15:39 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:15:39 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:15:39 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:15:39 2011] [debug] Template "sign.html.ep" not found.
+[Wed Sep 14 17:15:39 2011] [debug] Rendering template "show/index.html.ep".
+[Wed Sep 14 17:15:39 2011] [error] Global symbol "$sign" requires explicit package name at template "show/index.html.ep" line 5, near "<hr>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <hr>
+7: <form action="fb.fcgi" method = "POST">
+8:   <p>
+9:   <input  type="text" size ="30" name="F">Фамилия<br>
+10:   <input  type="text" size ="30" name="N">Имя<br>
+
+[Wed Sep 14 17:15:39 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 14 17:15:39 2011] [debug] Template "exception.html.ep" not found.
+[Wed Sep 14 17:15:39 2011] [debug] Rendering inline template.
+[Wed Sep 14 17:15:39 2011] [debug] 500 Internal Server Error (0.304909s, 3.280/s).
+[Wed Sep 14 17:15:39 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:15:39 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:15:39 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:15:39 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:15:39 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:20:59 2011] [info] Server listening (http://*:3000)
+[Wed Sep 14 17:21:03 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 14 17:21:03 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:21:03 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:21:03 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:21:03 2011] [debug] Rendering template "show/index.html.ep".
+[Wed Sep 14 17:21:03 2011] [debug] Rendering template "layouts/default.html.ep".
+[Wed Sep 14 17:21:03 2011] [debug] 200 OK (0.133935s, 7.466/s).
+[Wed Sep 14 17:21:15 2011] [info] Server listening (http://*:3000)
+[Wed Sep 14 17:21:19 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 14 17:21:19 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:21:19 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:21:19 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:21:19 2011] [debug] Template "sign.html.ep" not found.
+[Wed Sep 14 17:21:19 2011] [debug] Rendering template "show/index.html.ep".
+[Wed Sep 14 17:21:19 2011] [error] Global symbol "$sign" requires explicit package name at template "show/index.html.ep" line 5, near "<hr>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <hr>
+7: <form action="fb.fcgi" method = "POST">
+8:   <p>
+9:   <input  type="text" size ="30" name="F">Фамилия<br>
+10:   <input  type="text" size ="30" name="N">Имя<br>
+
+[Wed Sep 14 17:21:19 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 14 17:21:19 2011] [debug] Template "exception.html.ep" not found.
+[Wed Sep 14 17:21:19 2011] [debug] Rendering inline template.
+[Wed Sep 14 17:21:19 2011] [debug] 500 Internal Server Error (0.365178s, 2.738/s).
+[Wed Sep 14 17:21:50 2011] [info] Server listening (http://*:3000)
+[Wed Sep 14 17:21:55 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 14 17:21:55 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:21:55 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:21:55 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:21:55 2011] [error] Search pattern not terminated at script/../lib/FbM/Controller/Show.pm line 12.
+Compilation failed in require at (eval 271) line 1.
+
+[Wed Sep 14 17:21:55 2011] [error] Search pattern not terminated at script/../lib/FbM/Controller/Show.pm line 12.
+Compilation failed in require at (eval 271) line 1.
+
+[Wed Sep 14 17:21:55 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 14 17:21:55 2011] [debug] Template "exception.html.ep" not found.
+[Wed Sep 14 17:21:55 2011] [debug] Rendering inline template.
+[Wed Sep 14 17:21:55 2011] [debug] 500 Internal Server Error (0.358966s, 2.786/s).
+[Wed Sep 14 17:22:34 2011] [info] Server listening (http://*:3000)
+[Wed Sep 14 17:22:38 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 14 17:22:38 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:22:38 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:22:38 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:22:39 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Wed Sep 14 17:22:39 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Wed Sep 14 17:22:39 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 14 17:22:39 2011] [debug] Template "exception.html.ep" not found.
+[Wed Sep 14 17:22:39 2011] [debug] Rendering inline template.
+[Wed Sep 14 17:22:39 2011] [debug] 500 Internal Server Error (0.247293s, 4.044/s).
+[Wed Sep 14 17:22:39 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Wed Sep 14 17:22:54 2011] [info] Server listening (http://*:3000)
+[Wed Sep 14 17:22:56 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 14 17:22:56 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Wed Sep 14 17:22:56 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Wed Sep 14 17:22:56 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Wed Sep 14 17:22:56 2011] [debug] Template "sign.html.ep" not found.
+[Wed Sep 14 17:22:56 2011] [debug] Rendering template "show/index.html.ep".
+[Wed Sep 14 17:22:56 2011] [error] Global symbol "$sign" requires explicit package name at template "show/index.html.ep" line 5, near "<hr>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <hr>
+7: <form action="fb.fcgi" method = "POST">
+8:   <p>
+9:   <input  type="text" size ="30" name="F">Фамилия<br>
+10:   <input  type="text" size ="30" name="N">Имя<br>
+
+[Wed Sep 14 17:22:56 2011] [debug] Template "exception.development.html.ep" not found.
+[Wed Sep 14 17:22:56 2011] [debug] Template "exception.html.ep" not found.
+[Wed Sep 14 17:22:56 2011] [debug] Rendering inline template.
+[Wed Sep 14 17:22:56 2011] [debug] 500 Internal Server Error (0.330434s, 3.026/s).

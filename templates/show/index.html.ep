@@ -1,0 +1,19 @@
+% layout 'default';
+% title 'Welcome';
+<hr>
+
+<%=$sign%>
+<hr>
+<form action="fb.fcgi" method = "POST">
+  <p>
+  <input  type="text" size ="30" name="F">Фамилия<br>
+  <input  type="text" size ="30" name="N">Имя<br>
+  <input  type="text" size ="30" name="P">Отчество<br>
+  </p>
+  <input type="submit" name="SEARCH"  value = "Поиск"/>
+</form>
+<hr>
+<br>
+<form action="fb.fcgi" method = "POST">
+  <input type="submit" name="NEW"  value = "Создать"/>
+</form>
