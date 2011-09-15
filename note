@@ -1,0 +1,5 @@
+/ вывод всего
+/letter/:LET вывод списка по букве LET
+/page/:N выыод списка по странице N
+/letter/:LET/page/:N вывод страницы N по букве N
+http://sao-paulo.pm.org/artigo/2010/Mojolicious

@@ -13,15 +13,10 @@ for my $module (@$modules) {
     Mojo::Loader->load($module)
 }
 
-
-
-
-
 sub init {
 my ($class, $config) = @_;
 croak "No dsn was passed!" unless $config && $config->{dsn};
 $dbh = DBI->connect (@$config{qw/dsn user password/}) or die DBI->error;	
-return 	$dbh;
 }
 
 sub dbh {

@@ -25,12 +25,11 @@ sub startup {
   
   Mojo::Loader->load('FbM::Model');
   FbM::Model->init ({
-        #dsn      => "dbi:Firebird:db\=/mnt/firebird/test.fdb;ib_dialect=3;",
         dsn      => "dbi:Firebird:hostname=127.0.0.1;db=VTEST;ib_dialect=3;",
         user     => 'SYSDBA',
         password => 'masterkey'
     });
-	Mojo::Loader->load('FbM::Model::Base');
+	
 
 
 
