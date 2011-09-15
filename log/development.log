@@ -1646,3 +1646,854 @@ Compilation failed in require at (eval 271) line 1.
 [Wed Sep 14 17:22:56 2011] [debug] Template "exception.html.ep" not found.
 [Wed Sep 14 17:22:56 2011] [debug] Rendering inline template.
 [Wed Sep 14 17:22:56 2011] [debug] 500 Internal Server Error (0.330434s, 3.026/s).
+[Thu Sep 15 15:58:05 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 15:58:39 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 15:58:42 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 15:58:42 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 15:58:42 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 15:58:42 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 15:58:43 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" (perhaps you forgot to load "FbM::Model::Base"?) at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 15:58:43 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" (perhaps you forgot to load "FbM::Model::Base"?) at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 15:58:43 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 15:58:43 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 15:58:43 2011] [debug] Rendering inline template.
+[Thu Sep 15 15:58:43 2011] [debug] 500 Internal Server Error (0.196287s, 5.095/s).
+[Thu Sep 15 15:58:43 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" (perhaps you forgot to load "FbM::Model::Base"?) at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 15:59:14 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 15:59:17 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 15:59:17 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 15:59:17 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 15:59:17 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 15:59:17 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" (perhaps you forgot to load "FbM::Model::Base"?) at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 15:59:17 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" (perhaps you forgot to load "FbM::Model::Base"?) at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 15:59:17 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 15:59:17 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 15:59:17 2011] [debug] Rendering inline template.
+[Thu Sep 15 15:59:17 2011] [debug] 500 Internal Server Error (0.233326s, 4.286/s).
+[Thu Sep 15 15:59:17 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" (perhaps you forgot to load "FbM::Model::Base"?) at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 15:59:19 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 15:59:19 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 15:59:19 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 15:59:19 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" (perhaps you forgot to load "FbM::Model::Base"?) at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 15:59:19 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" (perhaps you forgot to load "FbM::Model::Base"?) at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 15:59:19 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 15:59:19 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 15:59:19 2011] [debug] 500 Internal Server Error (0.194281s, 5.147/s).
+[Thu Sep 15 15:59:19 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" (perhaps you forgot to load "FbM::Model::Base"?) at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 16:00:25 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:00:29 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:00:29 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:00:29 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:00:29 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:00:29 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:00:29 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:00:29 2011] [debug] 200 OK (0.363897s, 2.748/s).
+[Thu Sep 15 16:01:01 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:01:04 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:01:04 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:01:04 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:01:04 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:01:04 2011] [error] Undefined subroutine &FbM::Model::Base::alphabet called at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 16:01:04 2011] [error] Undefined subroutine &FbM::Model::Base::alphabet called at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 16:01:04 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:01:04 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:01:04 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:01:04 2011] [debug] 500 Internal Server Error (0.271709s, 3.680/s).
+[Thu Sep 15 16:01:04 2011] [error] Undefined subroutine &FbM::Model::Base::alphabet called at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 16:01:04 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:01:04 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:01:04 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:01:04 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:01:04 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:01:21 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:01:23 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:01:23 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:01:23 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:01:23 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:01:23 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:01:23 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:01:23 2011] [debug] 200 OK (0.087864s, 11.381/s).
+[Thu Sep 15 16:02:30 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:02:32 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:02:32 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:02:32 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:02:32 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:02:32 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:02:32 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:02:32 2011] [debug] 200 OK (0.085737s, 11.664/s).
+[Thu Sep 15 16:02:33 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:02:33 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:02:33 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:02:33 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:02:33 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:02:33 2011] [debug] 200 OK (0.050115s, 19.954/s).
+[Thu Sep 15 16:02:41 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:02:41 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:02:41 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:02:41 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:02:41 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:02:41 2011] [debug] 200 OK (0.050688s, 19.729/s).
+[Thu Sep 15 16:02:41 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:02:41 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:02:41 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:02:41 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:02:41 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:02:41 2011] [debug] 200 OK (0.049589s, 20.166/s).
+[Thu Sep 15 16:03:05 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:03:08 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:03:08 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:03:08 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:03:08 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:03:09 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:03:09 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:03:09 2011] [debug] 200 OK (0.094842s, 10.544/s).
+[Thu Sep 15 16:03:09 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:03:09 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:03:09 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:03:09 2011] [debug] 200 OK (0.040015s, 24.991/s).
+[Thu Sep 15 16:03:10 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:03:10 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:03:10 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:03:10 2011] [debug] 200 OK (0.053149s, 18.815/s).
+[Thu Sep 15 16:03:10 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:03:10 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:03:10 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:03:10 2011] [debug] 200 OK (0.100500s, 9.950/s).
+[Thu Sep 15 16:03:11 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:03:11 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:03:11 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:03:11 2011] [debug] 200 OK (0.039838s, 25.102/s).
+[Thu Sep 15 16:03:11 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:03:11 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:03:11 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:03:11 2011] [debug] 200 OK (0.040119s, 24.926/s).
+[Thu Sep 15 16:03:12 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:03:12 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:03:12 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:03:12 2011] [debug] 200 OK (0.040176s, 24.890/s).
+[Thu Sep 15 16:03:12 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:03:12 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:03:12 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:03:12 2011] [debug] 200 OK (0.040275s, 24.829/s).
+[Thu Sep 15 16:03:13 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:03:13 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:03:13 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:03:13 2011] [debug] 200 OK (0.039574s, 25.269/s).
+[Thu Sep 15 16:03:15 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:03:15 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:03:15 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:03:15 2011] [debug] 200 OK (0.040471s, 24.709/s).
+[Thu Sep 15 16:03:16 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:03:16 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:03:16 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:03:16 2011] [debug] 200 OK (0.040822s, 24.497/s).
+[Thu Sep 15 16:03:58 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:04:00 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:04:00 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:04:00 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:04:00 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:04:00 2011] [error] Not a HASH reference at script/../lib/FbM/Model/Base.pm line 13.
+
+[Thu Sep 15 16:04:00 2011] [error] Not a HASH reference at script/../lib/FbM/Model/Base.pm line 13.
+
+[Thu Sep 15 16:04:00 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:04:00 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:04:00 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:04:00 2011] [debug] 500 Internal Server Error (0.199207s, 5.020/s).
+[Thu Sep 15 16:04:00 2011] [error] Not a HASH reference at script/../lib/FbM/Model/Base.pm line 13.
+
+[Thu Sep 15 16:04:00 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:04:01 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:04:01 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:04:01 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:04:01 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:04:56 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:04:58 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:04:58 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:04:58 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:04:58 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:04:58 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:04:58 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:04:58 2011] [debug] 200 OK (0.085800s, 11.655/s).
+[Thu Sep 15 16:05:04 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:05:04 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:05:04 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:05:04 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:05:04 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:05:04 2011] [debug] 200 OK (0.065845s, 15.187/s).
+[Thu Sep 15 16:05:05 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:05:05 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:05:05 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:05:05 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:05:05 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:05:05 2011] [debug] 200 OK (0.049478s, 20.211/s).
+[Thu Sep 15 16:05:05 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:05:05 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:05:05 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:05:05 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:05:05 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:05:05 2011] [debug] 200 OK (0.048734s, 20.520/s).
+[Thu Sep 15 16:05:24 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:05:28 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:05:28 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:05:28 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:05:28 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:05:29 2011] [error] Undefined subroutine &FbM::Model::Base::alphabet called at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 16:05:29 2011] [error] Undefined subroutine &FbM::Model::Base::alphabet called at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 16:05:29 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:05:29 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:05:29 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:05:29 2011] [debug] 500 Internal Server Error (0.358418s, 2.790/s).
+[Thu Sep 15 16:05:29 2011] [error] Undefined subroutine &FbM::Model::Base::alphabet called at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 16:05:48 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:05:51 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:05:51 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:05:51 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:05:51 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:05:51 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:05:52 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:05:52 2011] [debug] 200 OK (0.132977s, 7.520/s).
+[Thu Sep 15 16:06:33 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:06:33 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:06:33 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:06:33 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:06:33 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:06:33 2011] [debug] 200 OK (0.048374s, 20.672/s).
+[Thu Sep 15 16:06:41 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:06:46 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:06:46 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:06:46 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:06:46 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:06:46 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:06:46 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:06:46 2011] [debug] 200 OK (0.124911s, 8.006/s).
+[Thu Sep 15 16:06:47 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:06:47 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:06:47 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:06:47 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:06:47 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:06:47 2011] [debug] 200 OK (0.049830s, 20.068/s).
+[Thu Sep 15 16:07:27 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:07:27 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:07:27 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:07:27 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:07:27 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:07:27 2011] [debug] 200 OK (0.053382s, 18.733/s).
+[Thu Sep 15 16:07:49 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:07:50 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:07:50 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:07:50 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:07:50 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:07:50 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:07:50 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:07:50 2011] [debug] 200 OK (0.098011s, 10.203/s).
+[Thu Sep 15 16:07:51 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:07:51 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:07:51 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:07:51 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:07:51 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:07:51 2011] [debug] 200 OK (0.049302s, 20.283/s).
+[Thu Sep 15 16:07:52 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:07:52 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:07:52 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:07:52 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:07:52 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:07:52 2011] [debug] 200 OK (0.053797s, 18.588/s).
+[Thu Sep 15 16:08:15 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:08:19 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:08:19 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:08:19 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:08:19 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:08:19 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:08:19 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:08:19 2011] [debug] 200 OK (0.176703s, 5.659/s).
+[Thu Sep 15 16:08:28 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:08:30 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:08:30 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:08:30 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:08:30 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:08:30 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:08:30 2011] [error] Bareword "ABC" not allowed while "strict subs" in use at template "show/index.html.ep" line 6, near "<hr>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <%=ABC%>
+7: <hr>
+8: <form action="fb.fcgi" method = "POST">
+9:   <p>
+10:   <input  type="text" size ="30" name="F">Фамилия<br>
+11:   <input  type="text" size ="30" name="N">Имя<br>
+
+[Thu Sep 15 16:08:30 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:08:30 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:08:30 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:08:30 2011] [debug] 500 Internal Server Error (0.305133s, 3.277/s).
+[Thu Sep 15 16:08:30 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:08:30 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:08:30 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:08:31 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:08:31 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:08:57 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:08:59 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:08:59 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:08:59 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:08:59 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:08:59 2011] [error] Undefined subroutine &FbM::Model::Base::alphabet called at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 16:08:59 2011] [error] Undefined subroutine &FbM::Model::Base::alphabet called at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 16:08:59 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:08:59 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:08:59 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:08:59 2011] [debug] 500 Internal Server Error (0.269128s, 3.716/s).
+[Thu Sep 15 16:08:59 2011] [error] Undefined subroutine &FbM::Model::Base::alphabet called at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 16:09:00 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:09:00 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:09:00 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:09:00 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:09:00 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:09:17 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:09:20 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:09:20 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:09:20 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:09:20 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:09:20 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:09:21 2011] [error] Bareword "ABC" not allowed while "strict subs" in use at template "show/index.html.ep" line 6, near "<hr>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <%=ABC%>
+7: <hr>
+8: <form action="fb.fcgi" method = "POST">
+9:   <p>
+10:   <input  type="text" size ="30" name="F">Фамилия<br>
+11:   <input  type="text" size ="30" name="N">Имя<br>
+
+[Thu Sep 15 16:09:21 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:09:21 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:09:21 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:09:21 2011] [debug] 500 Internal Server Error (0.259626s, 3.852/s).
+[Thu Sep 15 16:09:21 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:09:21 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:09:21 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:09:21 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:09:21 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:10:39 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:10:41 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:10:41 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:10:41 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:10:41 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:10:41 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:10:42 2011] [error] Bareword "ABC" not allowed while "strict subs" in use at template "show/index.html.ep" line 6, near "<hr>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <%=ABC%>
+7: <hr>
+8: <form action="fb.fcgi" method = "POST">
+9:   <p>
+10:   <input  type="text" size ="30" name="F">Фамилия<br>
+11:   <input  type="text" size ="30" name="N">Имя<br>
+
+[Thu Sep 15 16:10:42 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:10:42 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:10:42 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:10:42 2011] [debug] 500 Internal Server Error (0.301200s, 3.320/s).
+[Thu Sep 15 16:10:42 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:10:42 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:10:42 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:10:42 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:10:42 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:11:27 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:11:30 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:11:30 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:11:30 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:11:30 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:11:31 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" (perhaps you forgot to load "FbM::Model::Base"?) at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 16:11:31 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" (perhaps you forgot to load "FbM::Model::Base"?) at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 16:11:31 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:11:31 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:11:31 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:11:31 2011] [debug] 500 Internal Server Error (0.174195s, 5.741/s).
+[Thu Sep 15 16:11:31 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" (perhaps you forgot to load "FbM::Model::Base"?) at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 16:11:31 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:11:31 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:11:31 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:11:31 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:11:31 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:11:54 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:11:56 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:11:56 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:11:56 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:11:56 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:11:56 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:11:57 2011] [error] Bareword "ABC" not allowed while "strict subs" in use at template "show/index.html.ep" line 6, near "<hr>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <%=ABC%>
+7: <hr>
+8: <form action="fb.fcgi" method = "POST">
+9:   <p>
+10:   <input  type="text" size ="30" name="F">Фамилия<br>
+11:   <input  type="text" size ="30" name="N">Имя<br>
+
+[Thu Sep 15 16:11:57 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:11:57 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:11:57 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:11:57 2011] [debug] 500 Internal Server Error (0.299584s, 3.338/s).
+[Thu Sep 15 16:11:57 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:11:57 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:11:57 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:11:57 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:11:57 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:12:33 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:12:36 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:12:36 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:12:36 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:12:36 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:12:36 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:12:36 2011] [error] Bareword "ABC" not allowed while "strict subs" in use at template "show/index.html.ep" line 6, near "<hr>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <%=ABC%>
+7: <hr>
+8: <form action="fb.fcgi" method = "POST">
+9:   <p>
+10:   <input  type="text" size ="30" name="F">Фамилия<br>
+11:   <input  type="text" size ="30" name="N">Имя<br>
+
+[Thu Sep 15 16:12:36 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:12:36 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:12:36 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:12:36 2011] [debug] 500 Internal Server Error (0.343542s, 2.911/s).
+[Thu Sep 15 16:13:00 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:13:04 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:13:04 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:13:04 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:13:04 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:13:04 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:13:04 2011] [error] Bareword "ABC" not allowed while "strict subs" in use at template "show/index.html.ep" line 6, near "<hr>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <%=ABC%>
+7: <hr>
+8: <form action="fb.fcgi" method = "POST">
+9:   <p>
+10:   <input  type="text" size ="30" name="F">Фамилия<br>
+11:   <input  type="text" size ="30" name="N">Имя<br>
+
+[Thu Sep 15 16:13:04 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:13:04 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:13:04 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:13:04 2011] [debug] 500 Internal Server Error (0.372658s, 2.683/s).
+[Thu Sep 15 16:14:37 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:14:40 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:14:40 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:14:40 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:14:40 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:14:40 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:14:40 2011] [error] Bareword "ABC" not allowed while "strict subs" in use at template "show/index.html.ep" line 6, near "<hr>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <%=ABC%>
+7: <hr>
+8: <form action="fb.fcgi" method = "POST">
+9:   <p>
+10:   <input  type="text" size ="30" name="F">Фамилия<br>
+11:   <input  type="text" size ="30" name="N">Имя<br>
+
+[Thu Sep 15 16:14:40 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:14:40 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:14:40 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:14:40 2011] [debug] 500 Internal Server Error (0.255111s, 3.920/s).
+[Thu Sep 15 16:14:40 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:14:40 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:14:40 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:14:40 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:14:40 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:15:31 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:15:35 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:15:35 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:15:35 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:15:35 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:15:35 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:15:35 2011] [error] Bareword "ABC" not allowed while "strict subs" in use at template "show/index.html.ep" line 6, near "<hr>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <%=ABC%>
+7: <hr>
+8: <form action="fb.fcgi" method = "POST">
+9:   <p>
+10:   <input  type="text" size ="30" name="F">Фамилия<br>
+11:   <input  type="text" size ="30" name="N">Имя<br>
+
+[Thu Sep 15 16:15:35 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:15:35 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:15:35 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:15:35 2011] [debug] 500 Internal Server Error (0.255275s, 3.917/s).
+[Thu Sep 15 16:15:35 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:15:35 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:15:35 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:15:35 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:15:35 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:18:22 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:18:29 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:18:29 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:18:29 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:18:29 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:18:29 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:18:30 2011] [error] Bareword "ABC" not allowed while "strict subs" in use at template "show/index.html.ep" line 6, near "<hr>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <%=ABC%>
+7: <hr>
+8: <form action="fb.fcgi" method = "POST">
+9:   <p>
+10:   <input  type="text" size ="30" name="F">Фамилия<br>
+11:   <input  type="text" size ="30" name="N">Имя<br>
+
+[Thu Sep 15 16:18:30 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:18:30 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:18:30 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:18:30 2011] [debug] 500 Internal Server Error (0.253927s, 3.938/s).
+[Thu Sep 15 16:18:30 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:18:30 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:18:30 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:18:30 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:18:30 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:18:46 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:18:48 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:18:48 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:18:48 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:18:48 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:18:48 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:18:48 2011] [error] Bareword "ABC" not allowed while "strict subs" in use at template "show/index.html.ep" line 6, near "<hr>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: 
+5: <%=$sign%>
+6: <%=ABC%>
+7: <hr>
+8: <form action="fb.fcgi" method = "POST">
+9:   <p>
+10:   <input  type="text" size ="30" name="F">Фамилия<br>
+11:   <input  type="text" size ="30" name="N">Имя<br>
+
+[Thu Sep 15 16:18:48 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:18:48 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:18:48 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:18:48 2011] [debug] 500 Internal Server Error (0.265558s, 3.766/s).
+[Thu Sep 15 16:18:48 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:18:48 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:18:48 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:18:48 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:18:48 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:18:56 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:18:59 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:18:59 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:18:59 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:18:59 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:18:59 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:18:59 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:18:59 2011] [debug] 200 OK (0.084898s, 11.779/s).
+[Thu Sep 15 16:20:00 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:20:00 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:20:00 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:20:00 2011] [debug] 200 OK (0.039775s, 25.141/s).
+[Thu Sep 15 16:20:01 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:20:01 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:20:01 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:20:01 2011] [debug] 200 OK (0.039655s, 25.218/s).
+[Thu Sep 15 16:20:01 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:20:01 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:20:01 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:20:01 2011] [debug] 200 OK (0.039521s, 25.303/s).
+[Thu Sep 15 16:20:06 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:20:06 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:20:06 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:20:06 2011] [debug] 200 OK (0.040281s, 24.826/s).
+[Thu Sep 15 16:20:06 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:20:06 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:20:06 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:20:06 2011] [debug] 200 OK (0.039892s, 25.068/s).
+[Thu Sep 15 16:20:28 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:20:28 2011] [debug] GET /debug (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:20:28 2011] [debug] Template "not_found.development.html.ep" not found.
+[Thu Sep 15 16:20:28 2011] [debug] Template "not_found.html.ep" not found.
+[Thu Sep 15 16:20:28 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:20:28 2011] [debug] 404 Not Found (0.021730s, 46.019/s).
+[Thu Sep 15 16:21:00 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:21:00 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:21:00 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:21:00 2011] [debug] 200 OK (0.040109s, 24.932/s).
+[Thu Sep 15 16:21:00 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:21:00 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:21:00 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:21:00 2011] [debug] 200 OK (0.042285s, 23.649/s).
+[Thu Sep 15 16:21:13 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:21:16 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:21:16 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:21:16 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:21:16 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:21:16 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:21:16 2011] [error] Global symbol "@ABC" requires explicit package name at template "show/index.html.ep" line 6, near "<%=$_->{SUB} %>".
+syntax error at template "show/index.html.ep" line 7, near "%".
+$_M "
+syntax error at template "show/index.html.ep" line 9, near "<hr>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: 
+5: <%=$sign%>
+6: % for (@ABC)
+7: <%=$_->{SUB} %>
+8: %
+9: 
+10: <hr>
+11: <form action="fb.fcgi" method = "POST">
+
+[Thu Sep 15 16:21:16 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:21:16 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:21:16 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:21:16 2011] [debug] 500 Internal Server Error (0.259676s, 3.851/s).
+[Thu Sep 15 16:21:16 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:21:16 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:21:16 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:21:16 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:21:16 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:22:42 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:22:42 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:22:42 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:22:42 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:22:42 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:22:42 2011] [debug] 200 OK (0.048457s, 20.637/s).
+[Thu Sep 15 16:22:44 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:22:44 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:22:44 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:22:44 2011] [debug] 200 OK (0.057159s, 17.495/s).
+[Thu Sep 15 16:23:13 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:23:17 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:23:17 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:23:17 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:23:17 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:23:17 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:23:17 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:23:17 2011] [debug] 200 OK (0.085682s, 11.671/s).
+[Thu Sep 15 16:24:14 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:24:17 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:24:17 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:24:17 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:24:17 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:24:17 2011] [error] Bareword "text" not allowed while "strict subs" in use at script/../lib/FbM/Controller/Show.pm line 14.
+Compilation failed in require at (eval 269) line 1.
+
+[Thu Sep 15 16:24:17 2011] [error] Bareword "text" not allowed while "strict subs" in use at script/../lib/FbM/Controller/Show.pm line 14.
+Compilation failed in require at (eval 269) line 1.
+
+[Thu Sep 15 16:24:17 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:24:17 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:24:17 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:24:17 2011] [debug] 500 Internal Server Error (0.147515s, 6.779/s).
+[Thu Sep 15 16:24:17 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:24:18 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:24:18 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:24:18 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:24:18 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:24:58 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:25:02 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:25:02 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:25:02 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:25:02 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:25:03 2011] [debug] Template "text.html.ep" not found.
+[Thu Sep 15 16:25:03 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:25:03 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:25:03 2011] [debug] 200 OK (0.150747s, 6.634/s).
+[Thu Sep 15 16:27:58 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:28:04 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:28:04 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:28:04 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:28:04 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:28:04 2011] [debug] Template "text.html.ep" not found.
+[Thu Sep 15 16:28:04 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:28:04 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:28:04 2011] [debug] 200 OK (0.158849s, 6.295/s).
+[Thu Sep 15 16:31:01 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:31:04 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:31:04 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:31:04 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:31:04 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:31:04 2011] [debug] Template "text.html.ep" not found.
+[Thu Sep 15 16:31:04 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:31:04 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:31:04 2011] [debug] 200 OK (0.120625s, 8.290/s).
+[Thu Sep 15 16:31:45 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:31:45 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:31:45 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:31:45 2011] [debug] Template "text.html.ep" not found.
+[Thu Sep 15 16:31:45 2011] [debug] 200 OK (0.044092s, 22.680/s).
+[Thu Sep 15 16:32:40 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:32:42 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:32:42 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:32:42 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:32:42 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:32:42 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:32:42 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:32:42 2011] [debug] 200 OK (0.107914s, 9.267/s).
+[Thu Sep 15 16:32:45 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:32:45 2011] [debug] GET /letter/%C3%90%C2%90 (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:32:45 2011] [debug] Template "not_found.development.html.ep" not found.
+[Thu Sep 15 16:32:45 2011] [debug] Template "not_found.html.ep" not found.
+[Thu Sep 15 16:32:45 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:32:45 2011] [debug] 404 Not Found (0.015957s, 62.668/s).
+[Thu Sep 15 16:35:04 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:35:09 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:35:09 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:35:09 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:35:09 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:35:09 2011] [error] Can't modify constant item in scalar assignment at script/../lib/FbM/Controller/Show.pm line 13, near "'utf-8')"
+Compilation failed in require at (eval 269) line 1.
+
+[Thu Sep 15 16:35:09 2011] [error] Can't modify constant item in scalar assignment at script/../lib/FbM/Controller/Show.pm line 13, near "'utf-8')"
+Compilation failed in require at (eval 269) line 1.
+
+[Thu Sep 15 16:35:09 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:35:09 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:35:09 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:35:09 2011] [debug] 500 Internal Server Error (0.194689s, 5.136/s).
+[Thu Sep 15 16:35:09 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:35:09 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:35:09 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:35:09 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:35:09 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:36:45 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:36:50 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:36:50 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:36:50 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:36:50 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:36:50 2011] [error] Can't modify constant item in scalar assignment at script/../lib/FbM/Controller/Show.pm line 13, near "'utf-8')"
+Compilation failed in require at (eval 269) line 1.
+
+[Thu Sep 15 16:36:50 2011] [error] Can't modify constant item in scalar assignment at script/../lib/FbM/Controller/Show.pm line 13, near "'utf-8')"
+Compilation failed in require at (eval 269) line 1.
+
+[Thu Sep 15 16:36:50 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:36:50 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:36:50 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:36:50 2011] [debug] 500 Internal Server Error (0.148293s, 6.743/s).
+[Thu Sep 15 16:36:50 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:36:50 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:36:50 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:36:50 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:36:50 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:37:12 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:37:16 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:37:16 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:37:16 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:37:16 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:37:16 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:37:16 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:37:16 2011] [debug] 200 OK (0.099112s, 10.090/s).
+[Thu Sep 15 16:37:18 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:37:18 2011] [debug] GET /letter/%C3%90%C2%90 (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:37:18 2011] [debug] Template "not_found.development.html.ep" not found.
+[Thu Sep 15 16:37:18 2011] [debug] Template "not_found.html.ep" not found.
+[Thu Sep 15 16:37:18 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:37:18 2011] [debug] 404 Not Found (0.015136s, 66.068/s).
+[Thu Sep 15 16:37:44 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:37:46 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:37:46 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:37:46 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:37:46 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:37:46 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:37:46 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:37:46 2011] [debug] 200 OK (0.085193s, 11.738/s).
+[Thu Sep 15 16:39:01 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:39:08 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:39:08 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:39:08 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:39:08 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:39:08 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 16:39:08 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 16:39:08 2011] [debug] Template "exception.development.html.ep" not found.
+[Thu Sep 15 16:39:08 2011] [debug] Template "exception.html.ep" not found.
+[Thu Sep 15 16:39:08 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:39:08 2011] [debug] 500 Internal Server Error (0.494618s, 2.022/s).
+[Thu Sep 15 16:39:08 2011] [error] Can't locate object method "alphabet" via package "FbM::Model::Base" at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Thu Sep 15 16:39:09 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:39:09 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:39:09 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:39:09 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:39:09 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:39:28 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:39:37 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:39:37 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:39:37 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:39:37 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:39:37 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:39:37 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:39:37 2011] [debug] 200 OK (0.091157s, 10.970/s).
+[Thu Sep 15 16:40:38 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:40:38 2011] [debug] GET /letter/%C3%90%C2%9A (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:40:38 2011] [debug] Template "not_found.development.html.ep" not found.
+[Thu Sep 15 16:40:38 2011] [debug] Template "not_found.html.ep" not found.
+[Thu Sep 15 16:40:38 2011] [debug] Rendering inline template.
+[Thu Sep 15 16:40:38 2011] [debug] 404 Not Found (0.014846s, 67.358/s).
+[Thu Sep 15 16:41:13 2011] [info] Server listening (http://*:3000)
+[Thu Sep 15 16:41:16 2011] [debug] Your secret passphrase needs to be changed!!!
+[Thu Sep 15 16:41:16 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:41:16 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:41:16 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:41:17 2011] [debug] Rendering template "show/index.html.ep".
+[Thu Sep 15 16:41:17 2011] [debug] Rendering template "layouts/default.html.ep".
+[Thu Sep 15 16:41:17 2011] [debug] 200 OK (0.085512s, 11.694/s).
+[Thu Sep 15 16:41:17 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Thu Sep 15 16:41:17 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Thu Sep 15 16:41:17 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Thu Sep 15 16:41:17 2011] [debug] 200 OK (0.040798s, 24.511/s).

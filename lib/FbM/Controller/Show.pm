@@ -4,13 +4,13 @@ use utf8;
 use strict;
 use warnings;
 use v5.10;
-
+Mojo::Loader->load('FbM::Model::Base');
 
 # This action will render a template
 sub index{
   my $self = shift;
-  #$self->render(sign => 'QQ!!', ABC=> FbM::Model::Base->alphabet);
-  $self->render(sign => 'QQ!!');
+  $self->stash(sign => 'КуКу!!', ABC=> FbM::Model::Base -> alphabet);
+  $self->render;
   
 }
 
