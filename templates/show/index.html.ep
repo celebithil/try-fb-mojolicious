@@ -1,10 +1,9 @@
 % layout 'default';
 % title 'Welcome';
 <hr>
-
 <%=$sign%>
 %for (@$ABC) {
-<a href=/letter/<%=$_->{SUB}%>><%=$_->{SUB}%>&nbsp</a>
+&nbsp;<a href=/letter/<%=$_->{SUB}%>><%=$_->{SUB}%>&nbsp</a>
 %}
 <hr>
 <form action="fb.fcgi" method = "POST">

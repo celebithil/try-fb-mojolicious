@@ -1,14 +1,11 @@
 package FbM;
 use Mojo::Base 'Mojolicious';
-use utf8;
-
 # This method will run once at server start
 
 
 sub startup {
   my $self = shift;
 
-  $self->types->type(txt => 'text/plain; charset=utf-8');
   # Documentation browser under "/perldoc" (this plugin requires Perl 5.10)
   $self->plugin('PODRenderer');
 
