@@ -3251,3 +3251,21 @@ Compilation failed in require at (eval 269) line 1.
 [Fri Sep 16 15:56:40 2011] [debug] Template "not_found.html.ep" not found.
 [Fri Sep 16 15:56:40 2011] [debug] Rendering inline template.
 [Fri Sep 16 15:56:40 2011] [debug] 404 Not Found (0.016511s, 60.566/s).
+[Fri Sep 16 16:02:06 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Fri Sep 16 16:02:06 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Fri Sep 16 16:02:06 2011] [debug] 200 OK (0.045229s, 22.110/s).
+[Fri Sep 16 16:03:19 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Fri Sep 16 16:03:19 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Fri Sep 16 16:03:19 2011] [debug] 200 OK (0.047902s, 20.876/s).
+[Fri Sep 16 16:03:21 2011] [debug] Your secret passphrase needs to be changed!!!
+[Fri Sep 16 16:03:21 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Fri Sep 16 16:03:21 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Fri Sep 16 16:03:21 2011] [debug] Rendering template "show/index.html.ep".
+[Fri Sep 16 16:03:22 2011] [debug] Rendering template "layouts/default.html.ep".
+[Fri Sep 16 16:03:22 2011] [debug] 200 OK (0.180404s, 5.543/s).
+[Fri Sep 16 16:03:24 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Fri Sep 16 16:03:24 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Fri Sep 16 16:03:24 2011] [debug] 200 OK (0.043413s, 23.035/s).
+[Fri Sep 16 16:03:25 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Fri Sep 16 16:03:25 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Fri Sep 16 16:03:26 2011] [debug] 200 OK (0.043055s, 23.226/s).
