@@ -9,7 +9,7 @@ Mojo::Loader->load('FbM::Model::Base');
 # This action will render a template
 sub index{
   my $self = shift;
-  $self->stash(sign => 'КуКу!!', ABC=> FbM::Model::Base -> alphabet);
+  $self->stash(sign => 'КуКу!!', ABC=> FbM::Model::Base -> alphabet, LIST => FbM::Model::Base -> select);
   $self->render;
   
 }

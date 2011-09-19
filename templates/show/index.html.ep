@@ -3,7 +3,7 @@
 <hr>
 <%=$sign%>
 %for (@$ABC) {
-&nbsp;<a href=/letter/<%=$_->{SUB}%>><%=$_->{SUB}%>&nbsp</a>
+<a href=/letter/<%=$_->{SUB}%>><%=$_->{SUB}%>&nbsp</a>
 %}
 <hr>
 <form action="fb.fcgi" method = "POST">
@@ -15,7 +15,10 @@
   <input type="submit" name="SEARCH"  value = "Поиск"/>
 </form>
 <hr>
-<br>
+%for (@$LIST) {
+<%= $_->{ID} $_->{F}%><br>
+%}
+<hr>
 <form action="fb.fcgi" method = "POST">
   <input type="submit" name="NEW"  value = "Создать"/>
 </form>
