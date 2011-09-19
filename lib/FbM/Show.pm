@@ -1,5 +1,4 @@
 package FbM::Controller::Show;
-use Mojo::Base 'Mojolicious::Controller';
 use strict;
 use warnings;
 use v5.14;
@@ -11,12 +10,12 @@ Mojo::Loader->load('FbM::Model::Base');
 sub index{
   my ($self, $list, $menu) = shift;
   $self -> stash(
-				sign => 'КуКу!!',
-				ABC  => FbM::Model::Base -> alphabet,
-				LIST => $list,
-				MENU => $menu
-				
-		    );
+        sign => 'КуКу!!',
+        ABC  => FbM::Model::Base -> alphabet,
+        LIST => $list,
+        MENU => $menu
+        
+        );
   $self -> render;
   
 }

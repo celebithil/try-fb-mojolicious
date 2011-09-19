@@ -1479,3 +1479,29 @@ Compilation failed in require at (eval 54439) line 1.
 [Mon Sep 19 17:11:05 2011] [debug] GET /letter/%D0%A6 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
 [Mon Sep 19 17:11:05 2011] [debug] Dispatching "FbM::Controller::Letter->list".
 [Mon Sep 19 17:11:05 2011] [debug] 200 OK (0.243520s, 4.106/s).
+[Mon Sep 19 17:16:03 2011] [debug] GET /letter/%D0%A5 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:16:03 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:16:04 2011] [debug] 200 OK (0.175448s, 5.700/s).
+[Mon Sep 19 17:16:05 2011] [debug] GET /letter/%D0%A4 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:16:05 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:16:05 2011] [debug] 200 OK (0.173963s, 5.748/s).
+[Mon Sep 19 17:16:06 2011] [debug] GET /letter/%D0%A3 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:16:06 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:16:06 2011] [debug] 200 OK (0.243557s, 4.106/s).
+[Mon Sep 19 17:16:06 2011] [debug] GET /letter/%D0%A2 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:16:06 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:16:06 2011] [debug] 200 OK (0.171914s, 5.817/s).
+[Mon Sep 19 17:16:07 2011] [debug] GET /letter/%D0%9B (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:16:07 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:16:07 2011] [debug] 200 OK (0.161023s, 6.210/s).
+[Mon Sep 19 17:16:22 2011] [debug] GET /page/7 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:16:22 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 17:16:22 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 17:16:22 2011] [debug] Rendering inline template.
+[Mon Sep 19 17:16:22 2011] [debug] 404 Not Found (0.016844s, 59.368/s).
+[Mon Sep 19 17:16:26 2011] [debug] GET /letter/%D0%94 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:16:26 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:16:26 2011] [debug] 200 OK (0.181890s, 5.498/s).
+[Mon Sep 19 17:16:27 2011] [debug] GET /letter/%D0%9D (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:16:27 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:16:27 2011] [debug] 200 OK (0.173872s, 5.751/s).
