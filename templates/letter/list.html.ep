@@ -1,0 +1,38 @@
+% layout 'default';
+% title 'Welcome';
+<hr>
+<%=$sign%><br>
+<%=$condition%><br>
+%for (@$ABC) {
+<a href=/letter/<%=$_->{SUB}%>><%=$_->{SUB}%>&nbsp</a>
+%}
+<hr>
+<form action="search" method = "POST">
+  <p>
+  <input  type="text" size ="30" name="F">Фамилия<br>
+  <input  type="text" size ="30" name="N">Имя<br>
+  <input  type="text" size ="30" name="P">Отчество<br>
+  </p>
+  <input type="submit" name="SEARCH"  value = "Поиск"/>
+</form>
+<hr>
+<table>
+%for (@$LIST) {
+<tr>
+<td><a href=/edit/<%= $_->{ID}%>><%= $_->{ID}%></a></td>
+<td><%=$_->{F}%></td>
+<td><%=$_->{N}%></td>
+<td><%=$_->{P}%></td>
+<td><%=$_->{ADR}%></td>
+<td><%=$_->{BIRTHDATE}%></td>
+</tr>
+%}
+</table>
+<hr>
+%for (@$MENU) {
+<a href=/page/<%=$_%>><%=$_%>&nbsp</a>
+%}
+<hr>
+<form action="/new" method = "POST">
+  <input type="submit" name="NEW"  value = "Создать"/>
+</form>

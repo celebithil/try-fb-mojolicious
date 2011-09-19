@@ -560,3 +560,922 @@ syntax error at template "show/index.html.ep" line 22, near "  <input type="subm
 [Mon Sep 19 13:17:19 2011] [debug] Template "not_found.html.ep" not found.
 [Mon Sep 19 13:17:19 2011] [debug] Rendering inline template.
 [Mon Sep 19 13:17:19 2011] [debug] 404 Not Found (0.152883s, 6.541/s).
+[Mon Sep 19 13:20:01 2011] [debug] GET /page/2 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 13:20:01 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 13:20:01 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 13:20:01 2011] [debug] 404 Not Found (0.010433s, 95.850/s).
+[Mon Sep 19 15:16:46 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 15:16:46 2011] [debug] GET /page/3 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:16:46 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 15:16:46 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 15:16:46 2011] [debug] Rendering inline template.
+[Mon Sep 19 15:16:46 2011] [debug] 404 Not Found (0.068559s, 14.586/s).
+[Mon Sep 19 15:23:11 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 15:23:11 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:23:11 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Mon Sep 19 15:23:12 2011] [error] Can't call method "stash" on unblessed reference at script/../lib/FbM/Controller/Show.pm line 17.
+
+[Mon Sep 19 15:23:12 2011] [error] Can't call method "stash" on unblessed reference at script/../lib/FbM/Controller/Show.pm line 17.
+
+[Mon Sep 19 15:23:12 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 15:23:12 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 15:23:12 2011] [debug] Rendering inline template.
+[Mon Sep 19 15:23:12 2011] [debug] 500 Internal Server Error (1.571923s, 0.636/s).
+[Mon Sep 19 15:23:12 2011] [error] Can't call method "stash" on unblessed reference at script/../lib/FbM/Controller/Show.pm line 17.
+
+[Mon Sep 19 15:24:47 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:24:47 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Mon Sep 19 15:24:48 2011] [error] Can't call method "stash" on unblessed reference at script/../lib/FbM/Controller/Show.pm line 17.
+
+[Mon Sep 19 15:24:48 2011] [error] Can't call method "stash" on unblessed reference at script/../lib/FbM/Controller/Show.pm line 17.
+
+[Mon Sep 19 15:24:48 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 15:24:48 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 15:24:48 2011] [debug] 500 Internal Server Error (0.710490s, 1.407/s).
+[Mon Sep 19 15:24:48 2011] [error] Can't call method "stash" on unblessed reference at script/../lib/FbM/Controller/Show.pm line 17.
+
+[Mon Sep 19 15:25:00 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:25:00 2011] [debug] Dispatching "FbM::Controller::Show->list".
+[Mon Sep 19 15:25:00 2011] [error] Can't call method "stash" on unblessed reference at script/../lib/FbM/Controller/Show.pm line 17.
+
+[Mon Sep 19 15:25:00 2011] [error] Can't call method "stash" on unblessed reference at script/../lib/FbM/Controller/Show.pm line 17.
+
+[Mon Sep 19 15:25:00 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 15:25:00 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 15:25:00 2011] [debug] 500 Internal Server Error (0.305783s, 3.270/s).
+[Mon Sep 19 15:25:00 2011] [error] Can't call method "stash" on unblessed reference at script/../lib/FbM/Controller/Show.pm line 17.
+
+[Mon Sep 19 15:26:15 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 15:26:15 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:26:15 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 15:26:15 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 15:26:15 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 15:26:15 2011] [debug] 200 OK (0.632238s, 1.582/s).
+[Mon Sep 19 15:26:20 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:26:20 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 15:26:20 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 15:26:20 2011] [debug] Rendering inline template.
+[Mon Sep 19 15:26:20 2011] [debug] 404 Not Found (0.020585s, 48.579/s).
+[Mon Sep 19 15:28:35 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 15:28:35 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:28:35 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 15:28:35 2011] [error] syntax error at script/../lib/FbM/Controller/Show.pm line 12, near "-> build_menu
+
+sub index"
+syntax error at script/../lib/FbM/Controller/Show.pm line 23, near "}"
+Compilation failed in require at (eval 44877) line 1.
+
+[Mon Sep 19 15:28:35 2011] [error] syntax error at script/../lib/FbM/Controller/Show.pm line 12, near "-> build_menu
+
+sub index"
+syntax error at script/../lib/FbM/Controller/Show.pm line 23, near "}"
+Compilation failed in require at (eval 44877) line 1.
+
+[Mon Sep 19 15:28:35 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 15:28:35 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 15:28:35 2011] [debug] Rendering inline template.
+[Mon Sep 19 15:28:35 2011] [debug] 500 Internal Server Error (0.354051s, 2.824/s).
+[Mon Sep 19 15:29:02 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 15:29:02 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:29:02 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 15:29:02 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 15:29:02 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 15:29:02 2011] [debug] 200 OK (0.280447s, 3.566/s).
+[Mon Sep 19 15:29:40 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:29:40 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 15:29:40 2011] [debug] 200 OK (0.045722s, 21.871/s).
+[Mon Sep 19 15:29:45 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 15:29:45 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:29:45 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 15:29:46 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 15:29:46 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 15:29:46 2011] [debug] 200 OK (0.404288s, 2.473/s).
+[Mon Sep 19 15:50:06 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 15:50:06 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:50:06 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 15:50:07 2011] [error] Can't locate object method "index" via package "FbM::Model::Base" at script/../lib/FbM/Controller/All.pm line 12.
+
+[Mon Sep 19 15:50:07 2011] [error] Can't locate object method "index" via package "FbM::Model::Base" at script/../lib/FbM/Controller/All.pm line 12.
+
+[Mon Sep 19 15:50:07 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 15:50:07 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 15:50:07 2011] [debug] Rendering inline template.
+[Mon Sep 19 15:50:07 2011] [debug] 500 Internal Server Error (0.719456s, 1.390/s).
+[Mon Sep 19 15:50:07 2011] [error] Can't locate object method "index" via package "FbM::Model::Base" at script/../lib/FbM/Controller/All.pm line 12.
+
+[Mon Sep 19 15:50:45 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 15:50:45 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:50:45 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 15:50:45 2011] [error] Can't locate object method "index" via package "FbM::Model::Show" (perhaps you forgot to load "FbM::Model::Show"?) at script/../lib/FbM/Controller/All.pm line 12.
+
+[Mon Sep 19 15:50:45 2011] [error] Can't locate object method "index" via package "FbM::Model::Show" (perhaps you forgot to load "FbM::Model::Show"?) at script/../lib/FbM/Controller/All.pm line 12.
+
+[Mon Sep 19 15:50:45 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 15:50:45 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 15:50:45 2011] [debug] Rendering inline template.
+[Mon Sep 19 15:50:45 2011] [debug] 500 Internal Server Error (0.335674s, 2.979/s).
+[Mon Sep 19 15:50:45 2011] [error] Can't locate object method "index" via package "FbM::Model::Show" (perhaps you forgot to load "FbM::Model::Show"?) at script/../lib/FbM/Controller/All.pm line 12.
+
+[Mon Sep 19 15:51:20 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 15:51:20 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:51:20 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 15:51:21 2011] [error] Can't locate object method "index" via package "FbM::Controller::Show" (perhaps you forgot to load "FbM::Controller::Show"?) at script/../lib/FbM/Controller/All.pm line 12.
+
+[Mon Sep 19 15:51:21 2011] [error] Can't locate object method "index" via package "FbM::Controller::Show" (perhaps you forgot to load "FbM::Controller::Show"?) at script/../lib/FbM/Controller/All.pm line 12.
+
+[Mon Sep 19 15:51:21 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 15:51:21 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 15:51:21 2011] [debug] Rendering inline template.
+[Mon Sep 19 15:51:21 2011] [debug] 500 Internal Server Error (0.323423s, 3.092/s).
+[Mon Sep 19 15:51:21 2011] [error] Can't locate object method "index" via package "FbM::Controller::Show" (perhaps you forgot to load "FbM::Controller::Show"?) at script/../lib/FbM/Controller/All.pm line 12.
+
+[Mon Sep 19 15:51:55 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 15:51:55 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:51:55 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 15:51:56 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:51:56 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:51:56 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 15:51:56 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 15:51:56 2011] [debug] Rendering inline template.
+[Mon Sep 19 15:51:56 2011] [debug] 500 Internal Server Error (0.554954s, 1.802/s).
+[Mon Sep 19 15:51:56 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:54:07 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 15:54:07 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:54:07 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 15:54:07 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:54:07 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:54:07 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 15:54:07 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 15:54:07 2011] [debug] Rendering inline template.
+[Mon Sep 19 15:54:08 2011] [debug] 500 Internal Server Error (0.389997s, 2.564/s).
+[Mon Sep 19 15:54:08 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:54:10 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:54:10 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 15:54:11 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:54:11 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:54:11 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 15:54:11 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 15:54:11 2011] [debug] 500 Internal Server Error (0.330230s, 3.028/s).
+[Mon Sep 19 15:54:11 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:55:50 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 15:55:50 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:55:50 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 15:55:51 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:55:51 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:55:51 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 15:55:51 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 15:55:51 2011] [debug] Rendering inline template.
+[Mon Sep 19 15:55:51 2011] [debug] 500 Internal Server Error (0.630921s, 1.585/s).
+[Mon Sep 19 15:55:51 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:55:53 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:55:53 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 15:55:53 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:55:53 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:55:53 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 15:55:53 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 15:55:53 2011] [debug] 500 Internal Server Error (0.466421s, 2.144/s).
+[Mon Sep 19 15:55:53 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:56:32 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:56:32 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 15:56:33 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:56:33 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:56:33 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 15:56:33 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 15:56:33 2011] [debug] 500 Internal Server Error (0.449654s, 2.224/s).
+[Mon Sep 19 15:56:33 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:56:37 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 15:56:37 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:56:37 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 15:56:37 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:56:37 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:56:37 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 15:56:37 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 15:56:37 2011] [debug] Rendering inline template.
+[Mon Sep 19 15:56:37 2011] [debug] 500 Internal Server Error (0.378472s, 2.642/s).
+[Mon Sep 19 15:56:37 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:58:07 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 15:58:07 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:58:07 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 15:58:22 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:58:22 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:58:22 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 15:58:22 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 15:58:22 2011] [debug] Rendering inline template.
+[Mon Sep 19 15:58:22 2011] [debug] 500 Internal Server Error (15.014736s, 0.067/s).
+[Mon Sep 19 15:58:22 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:58:27 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 15:58:27 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 15:58:27 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:58:27 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 15:58:27 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 15:58:27 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 15:58:27 2011] [debug] 500 Internal Server Error (0.682732s, 1.465/s).
+[Mon Sep 19 15:58:27 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:19:17 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:19:17 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:19:17 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:19:19 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:19:19 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:19:19 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:19:19 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:19:19 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:19:19 2011] [debug] 500 Internal Server Error (1.516472s, 0.659/s).
+[Mon Sep 19 16:19:19 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:19:52 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:19:52 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:19:52 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:19:52 2011] [error] Can't locate object method "index" via package "Show" (perhaps you forgot to load "Show"?) at script/../lib/FbM/Controller/All.pm line 13.
+
+[Mon Sep 19 16:19:52 2011] [error] Can't locate object method "index" via package "Show" (perhaps you forgot to load "Show"?) at script/../lib/FbM/Controller/All.pm line 13.
+
+[Mon Sep 19 16:19:52 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:19:52 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:19:52 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:19:52 2011] [debug] 500 Internal Server Error (0.320701s, 3.118/s).
+[Mon Sep 19 16:19:52 2011] [error] Can't locate object method "index" via package "Show" (perhaps you forgot to load "Show"?) at script/../lib/FbM/Controller/All.pm line 13.
+
+[Mon Sep 19 16:20:32 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:20:32 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:20:33 2011] [error] Can't locate object method "index" via package "Show" (perhaps you forgot to load "Show"?) at script/../lib/FbM/Controller/All.pm line 13.
+
+[Mon Sep 19 16:20:33 2011] [error] Can't locate object method "index" via package "Show" (perhaps you forgot to load "Show"?) at script/../lib/FbM/Controller/All.pm line 13.
+
+[Mon Sep 19 16:20:33 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:20:33 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:20:33 2011] [debug] 500 Internal Server Error (0.261807s, 3.820/s).
+[Mon Sep 19 16:20:33 2011] [error] Can't locate object method "index" via package "Show" (perhaps you forgot to load "Show"?) at script/../lib/FbM/Controller/All.pm line 13.
+
+[Mon Sep 19 16:20:35 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:20:35 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:20:35 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:20:35 2011] [error] Can't locate object method "index" via package "Show" (perhaps you forgot to load "Show"?) at script/../lib/FbM/Controller/All.pm line 13.
+
+[Mon Sep 19 16:20:35 2011] [error] Can't locate object method "index" via package "Show" (perhaps you forgot to load "Show"?) at script/../lib/FbM/Controller/All.pm line 13.
+
+[Mon Sep 19 16:20:35 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:20:35 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:20:35 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:20:35 2011] [debug] 500 Internal Server Error (0.480819s, 2.080/s).
+[Mon Sep 19 16:20:35 2011] [error] Can't locate object method "index" via package "Show" (perhaps you forgot to load "Show"?) at script/../lib/FbM/Controller/All.pm line 13.
+
+[Mon Sep 19 16:20:59 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:20:59 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:20:59 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:20:59 2011] [debug] Rendering template "All/list.html.ep".
+[Mon Sep 19 16:21:00 2011] [error] Global symbol "$sign" requires explicit package name at template "All/list.html.ep" line 4, near "%for (@$ABC) {".
+Global symbol "$ABC" requires explicit package name at template "All/list.html.ep" line 5, near "<a href=/letter/<%=$_->{SUB}%>><%=$_->{SUB}%>&nbsp</a>".
+Global symbol "$LIST" requires explicit package name at template "All/list.html.ep" line 19, near "<tr>".
+Global symbol "$MENU" requires explicit package name at template "All/list.html.ep" line 31, near "<a href=/page/<%=$_%>><%=$_%>&nbsp</a>".
+1: % layout 'default';
+2: % title 'Welcome';
+3: <hr>
+4: <%=$sign%><br>
+5: %for (@$ABC) {
+6: <a href=/letter/<%=$_->{SUB}%>><%=$_->{SUB}%>&nbsp</a>
+7: %}
+8: <hr>
+9: <form action="search" method = "POST">
+
+[Mon Sep 19 16:21:00 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:21:00 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:21:00 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:21:00 2011] [debug] 500 Internal Server Error (0.596396s, 1.677/s).
+[Mon Sep 19 16:28:08 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:28:08 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:28:08 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:28:08 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:28:08 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:28:08 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:28:08 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:28:08 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:28:09 2011] [debug] 500 Internal Server Error (0.873040s, 1.145/s).
+[Mon Sep 19 16:28:09 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:28:10 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:28:10 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:28:10 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:28:11 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:28:11 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:28:11 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:28:11 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:28:11 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:28:11 2011] [debug] 500 Internal Server Error (0.393723s, 2.540/s).
+[Mon Sep 19 16:28:11 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:28:33 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:28:33 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:28:33 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:28:34 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:28:34 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:28:34 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:28:34 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:28:34 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:28:34 2011] [debug] 500 Internal Server Error (0.413308s, 2.420/s).
+[Mon Sep 19 16:28:34 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:28:36 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:28:36 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:28:36 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:28:36 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:28:36 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:28:36 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:28:36 2011] [debug] 500 Internal Server Error (0.337868s, 2.960/s).
+[Mon Sep 19 16:28:36 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:29:08 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:29:08 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:29:08 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:29:08 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:29:08 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:29:08 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:29:08 2011] [debug] 500 Internal Server Error (0.317243s, 3.152/s).
+[Mon Sep 19 16:29:08 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:29:10 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:29:10 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:29:10 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:29:10 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:29:10 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:29:10 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:29:10 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:29:10 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:29:10 2011] [debug] 500 Internal Server Error (0.420941s, 2.376/s).
+[Mon Sep 19 16:29:10 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:29:12 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:29:12 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:29:12 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:29:12 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:29:12 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:29:12 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:29:12 2011] [debug] 500 Internal Server Error (0.357280s, 2.799/s).
+[Mon Sep 19 16:29:12 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:30:11 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:30:11 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:30:11 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:30:12 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:30:12 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:30:12 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:30:12 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:30:12 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:30:12 2011] [debug] 500 Internal Server Error (0.418833s, 2.388/s).
+[Mon Sep 19 16:30:12 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:30:25 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:30:25 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:30:25 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:30:25 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:30:25 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:30:25 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:30:25 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:30:25 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:30:25 2011] [debug] 500 Internal Server Error (0.404745s, 2.471/s).
+[Mon Sep 19 16:30:25 2011] [error] Can't use string ("FbM::Controller::Show") as a HASH ref while "strict refs" in use at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 575.
+
+[Mon Sep 19 16:36:45 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:36:45 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:36:45 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:36:45 2011] [debug] Rendering template "All/list.html.ep".
+[Mon Sep 19 16:36:45 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 16:36:45 2011] [debug] 200 OK (0.506937s, 1.973/s).
+[Mon Sep 19 16:39:13 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:39:13 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:39:13 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 16:39:13 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 16:39:13 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:39:13 2011] [debug] 404 Not Found (0.029238s, 34.202/s).
+[Mon Sep 19 16:39:17 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:39:17 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 16:39:17 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 16:39:17 2011] [debug] 404 Not Found (0.007748s, 129.066/s).
+[Mon Sep 19 16:39:19 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:39:19 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 16:39:19 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 16:39:19 2011] [debug] 404 Not Found (0.007611s, 131.389/s).
+[Mon Sep 19 16:45:01 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:45:01 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:45:01 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:45:02 2011] [debug] Rendering template "All/list.html.ep".
+[Mon Sep 19 16:45:02 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 16:45:02 2011] [debug] 200 OK (0.421241s, 2.374/s).
+[Mon Sep 19 16:45:06 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:45:06 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 16:45:06 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 16:45:06 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:45:06 2011] [debug] 404 Not Found (0.018273s, 54.726/s).
+[Mon Sep 19 16:46:27 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:46:27 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 16:46:27 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 16:46:27 2011] [debug] 404 Not Found (0.008058s, 124.100/s).
+[Mon Sep 19 16:47:13 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:47:13 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:47:13 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 16:47:13 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 16:47:13 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:47:13 2011] [debug] 404 Not Found (0.029220s, 34.223/s).
+[Mon Sep 19 16:47:16 2011] [debug] GET /letter/%D0%91 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:47:16 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 16:47:16 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 16:47:16 2011] [debug] 404 Not Found (0.003590s, 278.552/s).
+[Mon Sep 19 16:47:21 2011] [debug] GET /letter/%D0%A1 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:47:21 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 16:47:21 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 16:47:21 2011] [debug] 404 Not Found (0.008301s, 120.467/s).
+[Mon Sep 19 16:47:24 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:47:24 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 16:47:24 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 16:47:24 2011] [debug] 404 Not Found (0.009179s, 108.944/s).
+[Mon Sep 19 16:47:58 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:47:58 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:47:58 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 16:47:58 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 16:47:58 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:47:58 2011] [debug] 404 Not Found (0.026704s, 37.448/s).
+[Mon Sep 19 16:48:00 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:48:00 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:48:00 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:48:01 2011] [error] Global symbol "$self" requires explicit package name at script/../lib/FbM/Controller/Letter.pm line 9.
+Compilation failed in require at (eval 54311) line 1.
+
+[Mon Sep 19 16:48:01 2011] [error] Global symbol "$self" requires explicit package name at script/../lib/FbM/Controller/Letter.pm line 9.
+Compilation failed in require at (eval 54311) line 1.
+
+[Mon Sep 19 16:48:01 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:48:01 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:48:01 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:48:01 2011] [debug] 500 Internal Server Error (0.207804s, 4.812/s).
+[Mon Sep 19 16:48:35 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:48:35 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:48:35 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:48:35 2011] [error] Global symbol "$self" requires explicit package name at script/../lib/FbM/Controller/Letter.pm line 9.
+Compilation failed in require at (eval 54381) line 1.
+
+[Mon Sep 19 16:48:35 2011] [error] Global symbol "$self" requires explicit package name at script/../lib/FbM/Controller/Letter.pm line 9.
+Compilation failed in require at (eval 54381) line 1.
+
+[Mon Sep 19 16:48:35 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:48:35 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:48:35 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:48:35 2011] [debug] 500 Internal Server Error (0.150272s, 6.655/s).
+[Mon Sep 19 16:48:36 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:48:36 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:48:37 2011] [error] Can't locate object method "list" via package "FbM::Controller::Letter" at C:/Perl/site/bin/../lib/Mojolicious/Routes.pm line 414
+
+[Mon Sep 19 16:48:37 2011] [error] Can't locate object method "list" via package "FbM::Controller::Letter" at C:/Perl/site/bin/../lib/Mojolicious/Routes.pm line 414
+
+[Mon Sep 19 16:48:37 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:48:37 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:48:37 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:48:37 2011] [debug] 500 Internal Server Error (0.228017s, 4.386/s).
+[Mon Sep 19 16:48:37 2011] [error] Can't locate object method "list" via package "FbM::Controller::Letter" at C:/Perl/site/bin/../lib/Mojolicious/Routes.pm line 414
+
+[Mon Sep 19 16:48:38 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:48:38 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:48:38 2011] [error] Can't locate object method "list" via package "FbM::Controller::Letter" at C:/Perl/site/bin/../lib/Mojolicious/Routes.pm line 414
+
+[Mon Sep 19 16:48:38 2011] [error] Can't locate object method "list" via package "FbM::Controller::Letter" at C:/Perl/site/bin/../lib/Mojolicious/Routes.pm line 414
+
+[Mon Sep 19 16:48:38 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:48:38 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:48:38 2011] [debug] 500 Internal Server Error (0.156555s, 6.388/s).
+[Mon Sep 19 16:48:38 2011] [error] Can't locate object method "list" via package "FbM::Controller::Letter" at C:/Perl/site/bin/../lib/Mojolicious/Routes.pm line 414
+
+[Mon Sep 19 16:49:02 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:49:02 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:49:02 2011] [error] Can't locate object method "list" via package "FbM::Controller::Letter" at C:/Perl/site/bin/../lib/Mojolicious/Routes.pm line 414
+
+[Mon Sep 19 16:49:02 2011] [error] Can't locate object method "list" via package "FbM::Controller::Letter" at C:/Perl/site/bin/../lib/Mojolicious/Routes.pm line 414
+
+[Mon Sep 19 16:49:02 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:49:02 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:49:02 2011] [debug] 500 Internal Server Error (0.156954s, 6.371/s).
+[Mon Sep 19 16:49:02 2011] [error] Can't locate object method "list" via package "FbM::Controller::Letter" at C:/Perl/site/bin/../lib/Mojolicious/Routes.pm line 414
+
+[Mon Sep 19 16:49:06 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:49:06 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:49:06 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:49:06 2011] [error] Can't locate object method "app" via package "LET" (perhaps you forgot to load "LET"?) at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 60.
+Compilation failed in require at (eval 54439) line 1.
+
+[Mon Sep 19 16:49:06 2011] [error] Can't locate object method "app" via package "LET" (perhaps you forgot to load "LET"?) at C:/Perl/site/bin/../lib/Mojolicious/Controller.pm line 60.
+Compilation failed in require at (eval 54439) line 1.
+
+[Mon Sep 19 16:49:06 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:49:06 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:49:06 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:49:06 2011] [debug] 500 Internal Server Error (0.314184s, 3.183/s).
+[Mon Sep 19 16:49:59 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:49:59 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:50:00 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Sep 19 16:50:00 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 16:50:00 2011] [debug] 200 OK (0.330984s, 3.021/s).
+[Mon Sep 19 16:50:02 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:50:02 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:50:02 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:50:02 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Sep 19 16:50:02 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 16:50:02 2011] [debug] 200 OK (0.361949s, 2.763/s).
+[Mon Sep 19 16:53:30 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:53:30 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:53:30 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:53:30 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Sep 19 16:53:30 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 16:53:30 2011] [debug] 200 OK (0.385084s, 2.597/s).
+[Mon Sep 19 16:53:38 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:53:38 2011] [debug] GET /page/10 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:53:38 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 16:53:38 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 16:53:38 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:53:38 2011] [debug] 404 Not Found (0.095655s, 10.454/s).
+[Mon Sep 19 16:53:44 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:53:44 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:53:44 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Sep 19 16:53:44 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 16:53:44 2011] [debug] 200 OK (0.261550s, 3.823/s).
+[Mon Sep 19 16:53:45 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:53:45 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:53:45 2011] [debug] 200 OK (0.263136s, 3.800/s).
+[Mon Sep 19 16:53:45 2011] [debug] GET /letter/%D0%AE (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:53:45 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:53:46 2011] [debug] 200 OK (0.171201s, 5.841/s).
+[Mon Sep 19 16:53:47 2011] [debug] GET /letter/%D0%91 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:53:47 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:53:47 2011] [debug] 200 OK (0.168756s, 5.926/s).
+[Mon Sep 19 16:53:48 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:53:48 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:53:49 2011] [debug] 200 OK (0.272544s, 3.669/s).
+[Mon Sep 19 16:54:47 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:54:47 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:54:47 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:54:48 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Sep 19 16:54:48 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Sep 19 16:54:48 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:54:48 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:54:48 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:54:48 2011] [debug] 500 Internal Server Error (0.532008s, 1.880/s).
+[Mon Sep 19 16:54:48 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Sep 19 16:54:58 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:54:58 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:54:58 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Sep 19 16:54:58 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Sep 19 16:54:58 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:54:58 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:54:58 2011] [debug] 500 Internal Server Error (0.184021s, 5.434/s).
+[Mon Sep 19 16:54:58 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Sep 19 16:56:01 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:56:01 2011] [debug] GET /letter/%D0%91 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:56:01 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:56:01 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Sep 19 16:56:01 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Sep 19 16:56:01 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:56:01 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:56:01 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:56:01 2011] [debug] 500 Internal Server Error (0.432307s, 2.313/s).
+[Mon Sep 19 16:56:01 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Sep 19 16:57:32 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:57:32 2011] [debug] GET /letter/%D0%91 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:57:32 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:57:33 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Sep 19 16:57:33 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Sep 19 16:57:33 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:57:33 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:57:33 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:57:33 2011] [debug] 500 Internal Server Error (0.341178s, 2.931/s).
+[Mon Sep 19 16:57:33 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Sep 19 16:57:38 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:57:38 2011] [debug] GET /letter/ (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:57:38 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 16:57:38 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 16:57:38 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:57:39 2011] [debug] 404 Not Found (0.026740s, 37.397/s).
+[Mon Sep 19 16:57:44 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:57:44 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:57:44 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/All.pm line 11.
+
+[Mon Sep 19 16:57:44 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/All.pm line 11.
+
+[Mon Sep 19 16:57:44 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:57:44 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:57:44 2011] [debug] Rendering inline template.
+[Mon Sep 19 16:57:44 2011] [debug] 500 Internal Server Error (0.341634s, 2.927/s).
+[Mon Sep 19 16:57:44 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/All.pm line 11.
+
+[Mon Sep 19 16:58:08 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:58:08 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:58:08 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/All.pm line 11.
+
+[Mon Sep 19 16:58:08 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/All.pm line 11.
+
+[Mon Sep 19 16:58:08 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 16:58:08 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 16:58:08 2011] [debug] 500 Internal Server Error (0.253448s, 3.946/s).
+[Mon Sep 19 16:58:08 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/All.pm line 11.
+
+[Mon Sep 19 16:58:10 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:58:34 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:58:34 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Sep 19 16:58:34 2011] [debug] Rendering template "All/list.html.ep".
+[Mon Sep 19 16:58:34 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 16:58:34 2011] [debug] 200 OK (0.325753s, 3.070/s).
+[Mon Sep 19 16:58:39 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:58:39 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:58:39 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:58:39 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Sep 19 16:58:39 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 16:58:39 2011] [debug] 200 OK (0.374634s, 2.669/s).
+[Mon Sep 19 16:58:41 2011] [debug] GET /letter/%D0%91 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:58:41 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:58:41 2011] [debug] 200 OK (0.187639s, 5.329/s).
+[Mon Sep 19 16:58:43 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:58:43 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:58:43 2011] [debug] 200 OK (0.217628s, 4.595/s).
+[Mon Sep 19 16:59:08 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 16:59:08 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:59:08 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:59:08 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Sep 19 16:59:08 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 16:59:08 2011] [debug] 200 OK (0.384743s, 2.599/s).
+[Mon Sep 19 16:59:09 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:59:09 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:59:09 2011] [debug] 200 OK (0.174627s, 5.726/s).
+[Mon Sep 19 16:59:10 2011] [debug] GET /letter/%D0%91 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:59:10 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:59:11 2011] [debug] 200 OK (0.187620s, 5.330/s).
+[Mon Sep 19 16:59:11 2011] [debug] GET /letter/%D0%97 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 16:59:11 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 16:59:11 2011] [debug] 200 OK (0.164836s, 6.067/s).
+[Mon Sep 19 17:00:22 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 17:00:22 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:00:22 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:00:22 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Sep 19 17:00:23 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 17:00:23 2011] [debug] 200 OK (0.413760s, 2.417/s).
+[Mon Sep 19 17:00:26 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:00:26 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:00:26 2011] [debug] 200 OK (0.224256s, 4.459/s).
+[Mon Sep 19 17:00:27 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:00:27 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:00:27 2011] [debug] 200 OK (0.196018s, 5.102/s).
+[Mon Sep 19 17:00:59 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 17:00:59 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:00:59 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:01:00 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Sep 19 17:01:00 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 17:01:00 2011] [debug] 200 OK (0.393606s, 2.541/s).
+[Mon Sep 19 17:01:02 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 17:01:02 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:01:02 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:01:02 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Sep 19 17:01:03 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 17:01:03 2011] [debug] 200 OK (0.477373s, 2.095/s).
+[Mon Sep 19 17:01:05 2011] [debug] GET /letter/%D0%A1 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:01:05 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:01:05 2011] [debug] 200 OK (0.185914s, 5.379/s).
+[Mon Sep 19 17:01:06 2011] [debug] GET /letter/%D0%9C (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:01:06 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:01:06 2011] [debug] 200 OK (0.213171s, 4.691/s).
+[Mon Sep 19 17:01:47 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 17:01:47 2011] [debug] GET /letter/%D0%9C (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:01:47 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:01:48 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Sep 19 17:01:48 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Sep 19 17:01:48 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 17:01:48 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 17:01:48 2011] [debug] Rendering inline template.
+[Mon Sep 19 17:01:48 2011] [debug] 500 Internal Server Error (0.591453s, 1.691/s).
+[Mon Sep 19 17:01:48 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Sep 19 17:02:12 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 17:02:12 2011] [debug] GET /letter/%D0%9C (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:02:12 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:02:12 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Sep 19 17:02:12 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 17:02:12 2011] [debug] 200 OK (0.268172s, 3.729/s).
+[Mon Sep 19 17:02:14 2011] [debug] GET /letter/%D0%9C (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:02:14 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:02:14 2011] [debug] 200 OK (0.196137s, 5.098/s).
+[Mon Sep 19 17:02:16 2011] [debug] GET /letter/%D0%9D (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:02:16 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:02:17 2011] [debug] 200 OK (0.167084s, 5.985/s).
+[Mon Sep 19 17:02:17 2011] [debug] GET /letter/%D0%9E (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:02:17 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:02:18 2011] [debug] 200 OK (0.163476s, 6.117/s).
+[Mon Sep 19 17:04:06 2011] [debug] GET /letter/%D0%9E (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:04:06 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:04:06 2011] [debug] 200 OK (0.350254s, 2.855/s).
+[Mon Sep 19 17:04:08 2011] [debug] GET /letter/%D0%9E (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:04:08 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:04:08 2011] [debug] 200 OK (0.387585s, 2.580/s).
+[Mon Sep 19 17:04:09 2011] [debug] GET /letter/%D0%9F (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:04:09 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:04:09 2011] [debug] 200 OK (0.288669s, 3.464/s).
+[Mon Sep 19 17:04:10 2011] [debug] GET /letter/%D0%A0 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:04:10 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:04:11 2011] [debug] 200 OK (0.685501s, 1.459/s).
+[Mon Sep 19 17:04:11 2011] [debug] GET /letter/%D0%A1 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:04:11 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:04:12 2011] [debug] 200 OK (0.377205s, 2.651/s).
+[Mon Sep 19 17:04:12 2011] [debug] GET /letter/%D0%A2 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:04:12 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:04:12 2011] [debug] 200 OK (0.230993s, 4.329/s).
+[Mon Sep 19 17:04:13 2011] [debug] GET /letter/%D0%A3 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:04:13 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:04:13 2011] [debug] 200 OK (0.253687s, 3.942/s).
+[Mon Sep 19 17:04:14 2011] [debug] GET /letter/%D0%A4 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:04:14 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:04:15 2011] [debug] 200 OK (0.286740s, 3.487/s).
+[Mon Sep 19 17:05:25 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 17:05:25 2011] [debug] GET /letter/%D0%A4 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:05:25 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:05:25 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 37.
+
+[Mon Sep 19 17:05:25 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 37.
+
+[Mon Sep 19 17:05:25 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 17:05:25 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 17:05:25 2011] [debug] Rendering inline template.
+[Mon Sep 19 17:05:25 2011] [debug] 500 Internal Server Error (0.579198s, 1.727/s).
+[Mon Sep 19 17:05:25 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 37.
+
+[Mon Sep 19 17:05:32 2011] [debug] GET /letter/%D0%A4 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:05:32 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:05:33 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 37.
+
+[Mon Sep 19 17:05:33 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 37.
+
+[Mon Sep 19 17:05:33 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 17:05:33 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 17:05:33 2011] [debug] 500 Internal Server Error (0.186426s, 5.364/s).
+[Mon Sep 19 17:05:33 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 37.
+
+[Mon Sep 19 17:05:59 2011] [debug] GET /letter/%D0%A4 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:05:59 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:05:59 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 37.
+
+[Mon Sep 19 17:05:59 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 37.
+
+[Mon Sep 19 17:05:59 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 17:05:59 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 17:05:59 2011] [debug] 500 Internal Server Error (0.188569s, 5.303/s).
+[Mon Sep 19 17:05:59 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 37.
+
+[Mon Sep 19 17:06:00 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 17:06:00 2011] [debug] GET /letter/%D0%A4 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:06:00 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:06:01 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Sep 19 17:06:01 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 17:06:01 2011] [debug] 200 OK (0.238967s, 4.185/s).
+[Mon Sep 19 17:06:04 2011] [debug] GET /letter/%D0%9B (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:06:04 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:06:04 2011] [debug] 200 OK (0.080267s, 12.458/s).
+[Mon Sep 19 17:06:08 2011] [debug] GET /letter/%D0%9A (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:06:08 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:06:08 2011] [debug] 200 OK (0.059305s, 16.862/s).
+[Mon Sep 19 17:06:09 2011] [debug] GET /letter/%D0%98 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:06:09 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:06:09 2011] [debug] 200 OK (0.070008s, 14.284/s).
+[Mon Sep 19 17:06:09 2011] [debug] GET /letter/%D0%95 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:06:09 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:06:09 2011] [debug] 200 OK (0.060899s, 16.421/s).
+[Mon Sep 19 17:08:21 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 17:08:21 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:08:21 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:08:21 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 37.
+
+[Mon Sep 19 17:08:21 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 37.
+
+[Mon Sep 19 17:08:21 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 17:08:21 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 17:08:21 2011] [debug] Rendering inline template.
+[Mon Sep 19 17:08:21 2011] [debug] 500 Internal Server Error (0.413401s, 2.419/s).
+[Mon Sep 19 17:08:21 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 37.
+
+[Mon Sep 19 17:09:12 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 17:09:12 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:09:12 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:09:12 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Sep 19 17:09:12 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 17:09:12 2011] [debug] 200 OK (0.314866s, 3.176/s).
+[Mon Sep 19 17:09:14 2011] [debug] GET /letter/%D0%94 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:09:14 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:09:14 2011] [debug] 200 OK (0.196588s, 5.087/s).
+[Mon Sep 19 17:09:16 2011] [debug] GET /letter/%D0%98 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:09:16 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:09:16 2011] [debug] 200 OK (0.167153s, 5.983/s).
+[Mon Sep 19 17:09:16 2011] [debug] GET /letter/%D0%9B (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:09:16 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:09:17 2011] [debug] 200 OK (0.169620s, 5.896/s).
+[Mon Sep 19 17:09:18 2011] [debug] GET /letter/%D0%9F (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:09:18 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:09:18 2011] [debug] 200 OK (0.168143s, 5.947/s).
+[Mon Sep 19 17:09:18 2011] [debug] GET /letter/%D0%A0 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:09:18 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:09:18 2011] [debug] 200 OK (0.230210s, 4.344/s).
+[Mon Sep 19 17:09:19 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:09:19 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:09:19 2011] [debug] 200 OK (0.178442s, 5.604/s).
+[Mon Sep 19 17:09:47 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:09:47 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:09:47 2011] [debug] 200 OK (0.384972s, 2.598/s).
+[Mon Sep 19 17:09:49 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 17:09:49 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:09:49 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:09:49 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Sep 19 17:09:49 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 17:09:49 2011] [debug] 200 OK (0.526913s, 1.898/s).
+[Mon Sep 19 17:09:50 2011] [debug] GET /letter/%D0%A4 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:09:50 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:09:50 2011] [debug] 200 OK (0.317911s, 3.146/s).
+[Mon Sep 19 17:09:51 2011] [debug] GET /letter/%D0%A6 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:09:51 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:09:51 2011] [debug] 200 OK (0.285982s, 3.497/s).
+[Mon Sep 19 17:09:52 2011] [debug] GET /letter/%D0%A8 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:09:52 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:09:52 2011] [debug] 200 OK (0.512581s, 1.951/s).
+[Mon Sep 19 17:09:53 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:09:53 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:09:53 2011] [debug] 200 OK (0.716623s, 1.395/s).
+[Mon Sep 19 17:10:52 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 17:10:52 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:10:52 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:10:52 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Sep 19 17:10:52 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 17:10:52 2011] [debug] 200 OK (0.282779s, 3.536/s).
+[Mon Sep 19 17:11:01 2011] [debug] GET /letter/%D0%9E (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:11:01 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:11:01 2011] [debug] 200 OK (0.164740s, 6.070/s).
+[Mon Sep 19 17:11:02 2011] [debug] GET /letter/%D0%A2 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:11:02 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:11:02 2011] [debug] 200 OK (0.167515s, 5.970/s).
+[Mon Sep 19 17:11:03 2011] [debug] GET /letter/%D0%A3 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:11:03 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:11:03 2011] [debug] 200 OK (0.171837s, 5.819/s).
+[Mon Sep 19 17:11:04 2011] [debug] GET /letter/%D0%A4 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:11:04 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:11:04 2011] [debug] 200 OK (0.156193s, 6.402/s).
+[Mon Sep 19 17:11:05 2011] [debug] GET /letter/%D0%A6 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 17:11:05 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Sep 19 17:11:05 2011] [debug] 200 OK (0.243520s, 4.106/s).

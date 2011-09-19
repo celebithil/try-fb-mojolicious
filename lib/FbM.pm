@@ -14,8 +14,9 @@ sub startup {
   $r->namespace('FbM::Controller');
 
   # Normal route to controller
-  $r->route('/')->to('show#index');
-    $r->route('/welcome')->to('example#welcome');
+  $r->route('/')->to('All#list');
+  $r->route('/letter/:LET')->to('Letter#list');
+  $r->route('/welcome')->to('example#welcome');
   
   Mojo::Loader->load('FbM::Model');
   

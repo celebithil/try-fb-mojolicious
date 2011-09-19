@@ -22,15 +22,17 @@ sub alphabet {
 }
 
 sub select {
-    my ( $class, @bind_values, $condition_of_select ) = shift;
-    $page_info = &page_parameters;
+    my ( $class, $condition_of_select) = shift;
+    my @bind_values;
+	$page_info = &page_parameters;
 	$sth = FbM::Model->dbh->prepare(
         "SELECT FIRST ? SKIP ?
 				ID, F, N, P, ADR,
                 CAST(lpad(EXTRACT(DAY FROM BIRTHDATE),2,'0') AS varchar(2))||'.'||
                 CAST(lpad(EXTRACT(MONTH FROM BIRTHDATE),2,'0') AS varchar(2))||'.'||
-                EXTRACT(YEAR FROM BIRTHDATE) AS BIRTHDATE
-                FROM MAIN ORDER BY F COLLATE UNICODE, N COLLATE UNICODE, P COLLATE UNICODE" . $condition_of_select
+                EXTRACT(YEAR FROM BIRTHDATE) AS BIRTHDATE 
+                FROM MAIN $condition_of_select
+				ORDER BY F COLLATE UNICODE, N COLLATE UNICODE, P COLLATE UNICODE"
     );
     push @bind_values, $page_info->entries_per_page, $page_info->first - 1;
 	$sth->execute(@bind_values);
