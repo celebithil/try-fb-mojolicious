@@ -255,3 +255,308 @@ syntax error at template "show/index.html.ep" line 24.
 [Tue Sep 20 01:05:44 2011] [debug] Rendering template "show/index.html.ep".
 [Tue Sep 20 01:05:44 2011] [debug] Rendering template "layouts/default.html.ep".
 [Tue Sep 20 01:05:44 2011] [debug] 200 OK (4.930161s, 0.203/s).
+[Mon Sep 19 09:12:23 2011] [info] Server listening (http://*:3000)
+[Mon Sep 19 09:13:24 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 09:13:24 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Sep 19 09:13:24 2011] [debug] GET / (Opera/9.80 (Windows NT 5.1; U; ru) Presto/2.9.168 Version/11.51).
+[Mon Sep 19 09:13:24 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 09:13:25 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 09:13:25 2011] [error] syntax error at template "show/index.html.ep" line 19, near "%}".
+syntax error at template "show/index.html.ep" line 21, near "<form action="fb.fcgi" method = "POST">".
+$_M "
+syntax error at template "show/index.html.ep" line 24.
+14:   </p>
+15:   <input type="submit" name="SEARCH"  value = "Поиск"/>
+16: </form>
+17: <hr>
+18: %for (@$LIST) {
+19: <%= $_->{ID} $_->{F}%><br>
+20: %}
+21: <hr>
+22: <form action="fb.fcgi" method = "POST">
+23:   <input type="submit" name="NEW"  value = "Создать"/>
+24: </form>
+
+[Mon Sep 19 09:13:25 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 09:13:25 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 09:13:25 2011] [debug] Rendering inline template.
+[Mon Sep 19 09:13:27 2011] [debug] 500 Internal Server Error (2.979513s, 0.336/s).
+[Mon Sep 19 09:13:27 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Sep 19 09:13:27 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Sep 19 09:13:27 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Sep 19 09:13:27 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Sep 19 09:13:29 2011] [debug] Bad signed cookie "mojolicious", possible hacking attempt.
+[Mon Sep 19 09:15:26 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 09:15:26 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 09:15:26 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 09:15:27 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 09:15:27 2011] [error] syntax error at template "show/index.html.ep" line 19, near "%}".
+syntax error at template "show/index.html.ep" line 21, near "<form action="fb.fcgi" method = "POST">".
+$_M "
+syntax error at template "show/index.html.ep" line 24.
+14:   </p>
+15:   <input type="submit" name="SEARCH"  value = "Поиск"/>
+16: </form>
+17: <hr>
+18: %for (@$LIST) {
+19: <%= $_->{ID}>&nbsp<%=$_->{F}%><br>
+20: %}
+21: <hr>
+22: <form action="fb.fcgi" method = "POST">
+23:   <input type="submit" name="NEW"  value = "Создать"/>
+24: </form>
+
+[Mon Sep 19 09:15:27 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 09:15:27 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 09:15:27 2011] [debug] Rendering inline template.
+[Mon Sep 19 09:15:29 2011] [debug] 500 Internal Server Error (2.918381s, 0.343/s).
+[Mon Sep 19 09:16:40 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 09:16:40 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 09:16:40 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 09:17:19 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 09:17:22 2011] [error] syntax error at template "show/index.html.ep" line 20, near "<hr>".
+syntax error at template "show/index.html.ep" line 22, near "  <input type="submit" name="NEW"  value = "Создать"/>".
+15:   <input type="submit" name="SEARCH"  value = "Поиск"/>
+16: </form>
+17: <hr>
+18: %for (@$LIST) {
+19: &nbsp <%= $_->{ID}><br>
+20: %}
+21: <hr>
+22: <form action="fb.fcgi" method = "POST">
+23:   <input type="submit" name="NEW"  value = "Создать"/>
+24: </form>
+
+[Mon Sep 19 09:17:22 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 09:17:22 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 09:17:22 2011] [debug] Rendering inline template.
+[Mon Sep 19 09:17:24 2011] [debug] 500 Internal Server Error (43.553667s, 0.023/s).
+[Mon Sep 19 09:17:24 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 09:17:24 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 09:17:25 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 09:17:25 2011] [error] syntax error at template "show/index.html.ep" line 20, near "<hr>".
+syntax error at template "show/index.html.ep" line 22, near "  <input type="submit" name="NEW"  value = "Создать"/>".
+15:   <input type="submit" name="SEARCH"  value = "Поиск"/>
+16: </form>
+17: <hr>
+18: %for (@$LIST) {
+19: &nbsp <%= $_->{ID}><br>
+20: %}
+21: <hr>
+22: <form action="fb.fcgi" method = "POST">
+23:   <input type="submit" name="NEW"  value = "Создать"/>
+24: </form>
+
+[Mon Sep 19 09:17:25 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 09:17:25 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 09:17:26 2011] [debug] 500 Internal Server Error (2.558447s, 0.391/s).
+[Mon Sep 19 09:17:58 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 09:17:58 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 09:17:58 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 09:17:59 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 09:18:00 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 09:18:00 2011] [debug] 200 OK (1.246507s, 0.802/s).
+[Mon Sep 19 09:19:03 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 09:19:03 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 09:19:04 2011] [debug] 200 OK (1.049352s, 0.953/s).
+[Mon Sep 19 09:19:06 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 09:19:06 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 09:19:06 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 09:19:07 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 09:19:07 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 09:19:07 2011] [debug] 200 OK (1.413625s, 0.707/s).
+[Mon Sep 19 09:19:59 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 09:19:59 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 09:19:59 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 09:20:00 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 09:20:01 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 09:20:01 2011] [debug] 200 OK (1.479433s, 0.676/s).
+[Mon Sep 19 09:20:03 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 09:20:03 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 09:20:03 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 09:20:04 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 09:20:04 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 09:20:04 2011] [debug] 200 OK (1.456281s, 0.687/s).
+[Mon Sep 19 09:20:08 2011] [debug] POST /search (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 09:20:08 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 09:20:08 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 09:20:08 2011] [debug] Rendering inline template.
+[Mon Sep 19 09:20:08 2011] [debug] 404 Not Found (0.025701s, 38.909/s).
+[Mon Sep 19 09:20:25 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 09:20:25 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 09:20:26 2011] [debug] 200 OK (1.150595s, 0.869/s).
+[Mon Sep 19 09:23:58 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 09:23:58 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 09:23:58 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 09:23:58 2011] [debug] 404 Not Found (0.010182s, 98.213/s).
+[Mon Sep 19 09:29:33 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 09:29:33 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 09:29:33 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 09:29:35 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 09:29:35 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 09:29:35 2011] [debug] 200 OK (1.685405s, 0.593/s).
+[Mon Sep 19 09:31:52 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 09:31:52 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 09:31:52 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 09:31:53 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 09:31:54 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 09:31:54 2011] [debug] 200 OK (1.453819s, 0.688/s).
+[Mon Sep 19 10:13:07 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 10:13:07 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 10:13:07 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 10:13:11 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 10:13:12 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 10:13:12 2011] [debug] 200 OK (4.354424s, 0.230/s).
+[Mon Sep 19 10:13:26 2011] [debug] GET /edit/6354 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 10:13:26 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 10:13:26 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 10:13:26 2011] [debug] Rendering inline template.
+[Mon Sep 19 10:13:26 2011] [debug] 404 Not Found (0.022878s, 43.710/s).
+[Mon Sep 19 10:20:37 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 10:20:37 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 10:20:37 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 10:20:42 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 10:20:43 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 10:20:43 2011] [debug] 200 OK (5.912082s, 0.169/s).
+[Mon Sep 19 10:22:32 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 10:22:32 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 10:22:34 2011] [debug] 200 OK (1.315539s, 0.760/s).
+[Mon Sep 19 10:45:09 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 10:45:09 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 10:45:09 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 10:45:11 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 10:45:12 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 10:45:12 2011] [debug] 200 OK (3.075287s, 0.325/s).
+[Mon Sep 19 10:45:16 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 10:45:16 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 10:45:18 2011] [debug] 200 OK (1.347144s, 0.742/s).
+[Mon Sep 19 12:05:49 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 12:05:51 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 12:06:43 2011] [debug] 200 OK (54.185072s, 0.018/s).
+[Mon Sep 19 12:42:09 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 12:42:09 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 12:42:09 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 12:42:10 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 12:42:11 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 12:42:11 2011] [debug] 200 OK (1.489725s, 0.671/s).
+[Mon Sep 19 12:42:13 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 12:42:13 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 12:42:13 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 12:42:14 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 12:42:14 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 12:42:14 2011] [debug] 200 OK (0.332064s, 3.011/s).
+[Mon Sep 19 12:42:18 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 12:42:18 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 12:42:18 2011] [debug] 200 OK (0.166745s, 5.997/s).
+[Mon Sep 19 12:43:52 2011] [debug] GET /edit/6568 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 12:43:52 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 12:43:52 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 12:43:52 2011] [debug] Rendering inline template.
+[Mon Sep 19 12:43:52 2011] [debug] 404 Not Found (0.016016s, 62.438/s).
+[Mon Sep 19 12:43:57 2011] [debug] POST /new (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 12:43:57 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 12:43:57 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 12:43:57 2011] [debug] 404 Not Found (0.012521s, 79.866/s).
+[Mon Sep 19 12:44:00 2011] [debug] POST /search (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 12:44:00 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 12:44:00 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 12:44:00 2011] [debug] 404 Not Found (0.007839s, 127.567/s).
+[Mon Sep 19 13:09:58 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 13:09:58 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 13:09:58 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 13:09:59 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 13:09:59 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 13:09:59 2011] [debug] 200 OK (0.745060s, 1.342/s).
+[Mon Sep 19 13:10:01 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 13:10:01 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 13:10:01 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 13:10:01 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 13:10:01 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 13:10:01 2011] [debug] 200 OK (0.397203s, 2.518/s).
+[Mon Sep 19 13:10:28 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 13:10:28 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 13:10:28 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 13:10:28 2011] [error] Undefined subroutine &FbM::Model::Base::build_menu called at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Mon Sep 19 13:10:28 2011] [error] Undefined subroutine &FbM::Model::Base::build_menu called at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Mon Sep 19 13:10:28 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 13:10:28 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 13:10:28 2011] [debug] Rendering inline template.
+[Mon Sep 19 13:10:28 2011] [debug] 500 Internal Server Error (0.500956s, 1.996/s).
+[Mon Sep 19 13:10:28 2011] [error] Undefined subroutine &FbM::Model::Base::build_menu called at script/../lib/FbM/Controller/Show.pm line 12.
+
+[Mon Sep 19 13:11:14 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 13:11:14 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 13:11:14 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 13:11:14 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 13:11:14 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 13:11:14 2011] [debug] 200 OK (0.272306s, 3.672/s).
+[Mon Sep 19 13:12:40 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 13:12:40 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 13:12:40 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 13:12:40 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 13:12:40 2011] [error] Global symbol "@MENU" requires explicit package name at template "show/index.html.ep" line 31, near "<a href=/page/<%=$_%>><%=$_%>&nbsp</a>".
+26: <td><%=$_->{BIRTHDATE}%></td>
+27: </tr>
+28: %}
+29: </table>
+30: <hr>
+31: %for (@MENU) {
+32: <a href=/page/<%=$_%>><%=$_%>&nbsp</a>
+33: %}
+34: <hr>
+35: <form action="/new" method = "POST">
+36:   <input type="submit" name="NEW"  value = "Создать"/>
+
+[Mon Sep 19 13:12:40 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 13:12:40 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 13:12:40 2011] [debug] Rendering inline template.
+[Mon Sep 19 13:12:40 2011] [debug] 500 Internal Server Error (0.492806s, 2.029/s).
+[Mon Sep 19 13:13:43 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 13:13:43 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 13:13:43 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 13:13:43 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 13:13:43 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 13:13:43 2011] [debug] 200 OK (0.277636s, 3.602/s).
+[Mon Sep 19 13:13:47 2011] [debug] GET /page/ARRAY(0x127c4014) (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 13:13:47 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 13:13:47 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 13:13:47 2011] [debug] Rendering inline template.
+[Mon Sep 19 13:13:47 2011] [debug] 404 Not Found (0.016709s, 59.848/s).
+[Mon Sep 19 13:14:07 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 13:14:07 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 13:14:08 2011] [debug] 200 OK (0.177667s, 5.629/s).
+[Mon Sep 19 13:14:24 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 13:14:24 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 13:14:24 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 13:14:24 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 13:14:24 2011] [error] Global symbol "@MENU" requires explicit package name at template "show/index.html.ep" line 31, near "<a href=/page/<%=$_%>><%=$_%>&nbsp</a>".
+26: <td><%=$_->{BIRTHDATE}%></td>
+27: </tr>
+28: %}
+29: </table>
+30: <hr>
+31: %for (@MENU) {
+32: <a href=/page/<%=$_%>><%=$_%>&nbsp</a>
+33: %}
+34: <hr>
+35: <form action="/new" method = "POST">
+36:   <input type="submit" name="NEW"  value = "Создать"/>
+
+[Mon Sep 19 13:14:24 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Sep 19 13:14:24 2011] [debug] Template "exception.html.ep" not found.
+[Mon Sep 19 13:14:24 2011] [debug] Rendering inline template.
+[Mon Sep 19 13:14:24 2011] [debug] 500 Internal Server Error (0.511386s, 1.955/s).
+[Mon Sep 19 13:15:53 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 13:15:53 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 13:15:53 2011] [debug] Dispatching "FbM::Controller::Show->index".
+[Mon Sep 19 13:15:53 2011] [debug] Rendering template "show/index.html.ep".
+[Mon Sep 19 13:15:53 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Sep 19 13:15:53 2011] [debug] 200 OK (0.309593s, 3.230/s).
+[Mon Sep 19 13:17:19 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Sep 19 13:17:19 2011] [debug] POST /search (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Mon Sep 19 13:17:19 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Sep 19 13:17:19 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Sep 19 13:17:19 2011] [debug] Rendering inline template.
+[Mon Sep 19 13:17:19 2011] [debug] 404 Not Found (0.152883s, 6.541/s).
