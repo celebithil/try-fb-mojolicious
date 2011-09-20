@@ -1505,3 +1505,196 @@ Compilation failed in require at (eval 54439) line 1.
 [Mon Sep 19 17:16:27 2011] [debug] GET /letter/%D0%9D (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
 [Mon Sep 19 17:16:27 2011] [debug] Dispatching "FbM::Controller::Letter->list".
 [Mon Sep 19 17:16:27 2011] [debug] 200 OK (0.173872s, 5.751/s).
+[Tue Sep 20 19:46:13 2011] [info] Server listening (http://*:3000)
+[Tue Sep 20 19:51:08 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 19:51:08 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 19:51:08 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 19:51:09 2011] [debug] Template "Letter/list.html.ep" not found.
+[Tue Sep 20 19:51:09 2011] [debug] Template "Letter/list.html.ep" not found.
+[Tue Sep 20 19:51:09 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Tue Sep 20 19:54:22 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 19:54:22 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 19:54:22 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 19:54:22 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 38.
+
+[Tue Sep 20 19:54:22 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 38.
+
+[Tue Sep 20 19:54:22 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 19:54:22 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 19:54:22 2011] [debug] Rendering inline template.
+[Tue Sep 20 19:54:22 2011] [debug] 500 Internal Server Error (0.454776s, 2.199/s).
+[Tue Sep 20 19:54:22 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 38.
+
+[Tue Sep 20 19:55:23 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 19:55:23 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 19:55:23 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 19:55:23 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:55:23 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:55:23 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Tue Sep 20 19:55:30 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 19:55:30 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 19:55:30 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:55:30 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:55:30 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Tue Sep 20 19:55:48 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 19:55:48 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 19:55:48 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:55:48 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:55:48 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Tue Sep 20 19:56:08 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 19:56:08 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 19:56:08 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 19:56:09 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:56:09 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:56:09 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Tue Sep 20 19:56:21 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 19:56:21 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 19:56:22 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:56:22 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:56:22 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Tue Sep 20 19:56:38 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 19:56:38 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 19:56:39 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:56:39 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:56:39 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Tue Sep 20 19:57:18 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 19:57:18 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 19:57:19 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:57:19 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:57:19 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Tue Sep 20 19:59:17 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 19:59:17 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 19:59:17 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 19:59:18 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:59:18 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:59:18 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Tue Sep 20 19:59:25 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 19:59:25 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 19:59:26 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:59:26 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 19:59:26 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Tue Sep 20 20:00:03 2011] [info] Server listening (http://*:3000)
+[Tue Sep 20 20:00:08 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 20:00:08 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 20:00:08 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 20:00:10 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 20:00:10 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 20:00:10 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Tue Sep 20 20:18:53 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 20:18:53 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 20:18:54 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 20:18:54 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 20:18:54 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Tue Sep 20 20:19:16 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 20:19:16 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 20:19:17 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 20:19:17 2011] [debug] Template "All/list.html.ep" not found.
+[Tue Sep 20 20:19:17 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Tue Sep 20 21:13:00 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 21:13:00 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 21:13:01 2011] [debug] Rendering template "All/list.html.ep".
+[Tue Sep 20 21:13:01 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 20 21:13:01 2011] [debug] 200 OK (1.228060s, 0.814/s).
+[Tue Sep 20 21:13:20 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 21:13:20 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 21:13:21 2011] [debug] Template "Letter/list.html.ep" not found.
+[Tue Sep 20 21:13:21 2011] [debug] Template "Letter/list.html.ep" not found.
+[Tue Sep 20 21:13:21 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Tue Sep 20 21:18:00 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 21:18:00 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 21:18:00 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 21:18:02 2011] [debug] Rendering template "All/list.html.ep".
+[Tue Sep 20 21:18:02 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 20 21:18:02 2011] [debug] 200 OK (1.220901s, 0.819/s).
+[Tue Sep 20 21:18:04 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 21:18:04 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 21:18:05 2011] [debug] 200 OK (1.068234s, 0.936/s).
+[Tue Sep 20 21:18:07 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 21:18:07 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 21:18:08 2011] [debug] Rendering template "Letter/list.html.ep".
+[Tue Sep 20 21:18:08 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 20 21:18:08 2011] [debug] 200 OK (1.069497s, 0.935/s).
+[Tue Sep 20 21:18:10 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 21:18:10 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 21:18:11 2011] [debug] 200 OK (0.910563s, 1.098/s).
+[Tue Sep 20 21:18:14 2011] [debug] GET /letter/%D0%AE (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 21:18:14 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 21:18:15 2011] [debug] 200 OK (0.903603s, 1.107/s).
+[Tue Sep 20 21:18:17 2011] [debug] GET /letter/%D0%A2 (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 21:18:17 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 21:18:18 2011] [debug] 200 OK (0.879111s, 1.138/s).
+[Tue Sep 20 21:18:20 2011] [debug] GET /letter/%D0%94 (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 21:18:20 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 21:18:20 2011] [debug] 200 OK (0.990434s, 1.010/s).
+[Tue Sep 20 21:18:25 2011] [debug] GET /letter/%D0%9C (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 21:18:25 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 21:18:26 2011] [debug] 200 OK (1.011549s, 0.989/s).
+[Tue Sep 20 21:18:28 2011] [debug] GET /letter/%D0%A4 (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 21:18:28 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 21:18:29 2011] [debug] 200 OK (0.969413s, 1.032/s).
+[Tue Sep 20 21:56:42 2011] [debug] GET /letter/%D0%96 (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 21:56:42 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 21:56:43 2011] [debug] 200 OK (0.901236s, 1.110/s).
+[Tue Sep 20 21:57:26 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 21:57:26 2011] [debug] GET /letter/%D0%96 (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 21:57:26 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 21:57:26 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 38.
+
+[Tue Sep 20 21:57:26 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 38.
+
+[Tue Sep 20 21:57:26 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 21:57:26 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 21:57:26 2011] [debug] Rendering inline template.
+[Tue Sep 20 21:57:27 2011] [debug] 500 Internal Server Error (0.480052s, 2.083/s).
+[Tue Sep 20 21:57:27 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 38.
+
+[Tue Sep 20 21:59:19 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 21:59:19 2011] [debug] GET /letter/%D0%A4 (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 21:59:19 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 21:59:20 2011] [debug] Rendering template "Letter/list.html.ep".
+[Tue Sep 20 21:59:20 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 20 21:59:20 2011] [debug] 200 OK (0.535152s, 1.869/s).
+[Tue Sep 20 21:59:26 2011] [debug] GET /letter/%D0%A4 (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 21:59:26 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 21:59:26 2011] [debug] 200 OK (0.360762s, 2.772/s).
+[Tue Sep 20 21:59:29 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 21:59:29 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 21:59:30 2011] [debug] 200 OK (0.370218s, 2.701/s).
+[Tue Sep 20 22:03:01 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 22:03:01 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 22:03:01 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 22:03:01 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 57.
+
+[Tue Sep 20 22:03:01 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 57.
+
+[Tue Sep 20 22:03:01 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 22:03:01 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 22:03:01 2011] [debug] Rendering inline template.
+[Tue Sep 20 22:03:01 2011] [debug] 500 Internal Server Error (0.421775s, 2.371/s).
+[Tue Sep 20 22:03:01 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 57.
+
+[Tue Sep 20 22:06:16 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 22:06:16 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 22:06:16 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 22:06:16 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 58.
+
+[Tue Sep 20 22:06:16 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 58.
+
+[Tue Sep 20 22:06:16 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 22:06:16 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 22:06:16 2011] [debug] Rendering inline template.
+[Tue Sep 20 22:06:16 2011] [debug] 500 Internal Server Error (0.429299s, 2.329/s).
+[Tue Sep 20 22:06:16 2011] [error] Can't call method "execute" on an undefined value at script/../lib/FbM/Model/Base.pm line 58.
+
+[Tue Sep 20 22:06:42 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 22:06:42 2011] [debug] GET /letter/%D0%A4 (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 22:06:42 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 22:06:43 2011] [debug] Rendering template "Letter/list.html.ep".
+[Tue Sep 20 22:06:43 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 20 22:06:43 2011] [debug] 200 OK (1.277439s, 0.783/s).
+[Wed Sep 21 00:26:17 2011] [debug] Your secret passphrase needs to be changed!!!
+[Wed Sep 21 00:26:17 2011] [debug] GET /letter/%D0%A4 (Mozilla/5.0 (X11; FreeBSD i386; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Wed Sep 21 00:26:17 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Wed Sep 21 00:26:18 2011] [debug] Rendering template "Letter/list.html.ep".
+[Wed Sep 21 00:26:18 2011] [debug] Rendering template "layouts/default.html.ep".
+[Wed Sep 21 00:26:18 2011] [debug] 200 OK (0.521408s, 1.918/s).

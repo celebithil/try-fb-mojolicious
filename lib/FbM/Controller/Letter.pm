@@ -14,9 +14,10 @@ sub list{
 	$self -> stash(
 				sign => 'КуКу!!',
 				ABC  => FbM::Model::Base -> alphabet,
-				LIST => FbM::Model::Base -> select (&condition),
+				LIST => FbM::Model::Base -> select(&condition),
 				MENU => FbM::Model::Base -> build_menu,
-				condition => &condition
+				condition => &condition,
+				sql => FbM::Model::Base -> sql
 				
 		    );
   $self -> render;
@@ -24,7 +25,7 @@ sub list{
   }
   
 sub condition {
-return "WHERE SUBSTRING (F FROM 1 FOR 1) LIKE $LET";
+return "WHERE SUBSTRING (F FROM 1 FOR 1) LIKE '$LET'";
 
 }
 

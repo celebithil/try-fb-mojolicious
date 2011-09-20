@@ -3,6 +3,7 @@
 <hr>
 <%=$sign%><br>
 <%=$condition%><br>
+<%=$sql%><br>
 %for (@$ABC) {
 <a href=/letter/<%=$_->{SUB}%>><%=$_->{SUB}%>&nbsp</a>
 %}
