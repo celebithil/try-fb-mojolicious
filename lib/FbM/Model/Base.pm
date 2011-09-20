@@ -7,6 +7,10 @@ use Encode qw /decode/;
 use base qw/Mojo::Base/;
 use Data::Pageset;
 
+
+
+
+
 my $sth;
 my $page_info;
 my $sql;
@@ -23,12 +27,10 @@ sub alphabet {
 }
 
 sub select {
-    my ( $class, $condition_of_select) = shift;
+    my ($class) = shift;
     my @bind_values;
 	$page_info = &page_parameters;
-	$sql = $condition_of_select;
-	
-	
+	$sql = $class;
 	
 	
 	

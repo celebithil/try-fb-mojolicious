@@ -1698,3 +1698,408 @@ Compilation failed in require at (eval 54439) line 1.
 [Wed Sep 21 00:26:18 2011] [debug] Rendering template "Letter/list.html.ep".
 [Wed Sep 21 00:26:18 2011] [debug] Rendering template "layouts/default.html.ep".
 [Wed Sep 21 00:26:18 2011] [debug] 200 OK (0.521408s, 1.918/s).
+[Tue Sep 20 12:05:12 2011] [info] Server listening (http://*:3000)
+[Tue Sep 20 12:07:33 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 12:07:33 2011] [debug] GET / (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:07:33 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Sep 20 12:07:33 2011] [debug] Rendering template "All/list.html.ep".
+[Tue Sep 20 12:07:33 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 20 12:07:33 2011] [debug] 200 OK (0.461494s, 2.167/s).
+[Tue Sep 20 12:08:15 2011] [debug] GET /letter/%D0%96 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:08:15 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:08:15 2011] [debug] Rendering template "Letter/list.html.ep".
+[Tue Sep 20 12:08:15 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 20 12:08:15 2011] [debug] 200 OK (0.106522s, 9.388/s).
+[Tue Sep 20 12:08:17 2011] [debug] GET /letter/%D0%97 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:08:17 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:08:17 2011] [debug] 200 OK (0.088051s, 11.357/s).
+[Tue Sep 20 12:08:18 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:08:18 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:08:18 2011] [debug] 200 OK (0.087178s, 11.471/s).
+[Tue Sep 20 12:08:59 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 12:08:59 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:08:59 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:09:00 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:09:00 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:09:00 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 12:09:00 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 12:09:00 2011] [debug] Rendering inline template.
+[Tue Sep 20 12:09:00 2011] [debug] 500 Internal Server Error (0.236814s, 4.223/s).
+[Tue Sep 20 12:09:00 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:09:53 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 12:09:53 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:09:53 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:09:54 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:09:54 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:09:54 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 12:09:54 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 12:09:54 2011] [debug] Rendering inline template.
+[Tue Sep 20 12:09:54 2011] [debug] 500 Internal Server Error (0.256411s, 3.900/s).
+[Tue Sep 20 12:09:54 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:09:56 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:09:56 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:09:56 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:09:56 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:09:56 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 12:09:56 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 12:09:56 2011] [debug] 500 Internal Server Error (0.180930s, 5.527/s).
+[Tue Sep 20 12:09:56 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:10:35 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:10:35 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:10:35 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:10:35 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:10:35 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 12:10:35 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 12:10:35 2011] [debug] 500 Internal Server Error (0.176756s, 5.658/s).
+[Tue Sep 20 12:10:35 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:10:36 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:10:36 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:10:36 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:10:36 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:10:36 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 12:10:36 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 12:10:36 2011] [debug] 500 Internal Server Error (0.178756s, 5.594/s).
+[Tue Sep 20 12:10:36 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:10:42 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:10:42 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:10:42 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:10:42 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:10:42 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 12:10:42 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 12:10:42 2011] [debug] 500 Internal Server Error (0.180863s, 5.529/s).
+[Tue Sep 20 12:10:42 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:10:44 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 12:10:44 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:10:44 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:10:44 2011] [debug] Rendering template "Letter/list.html.ep".
+[Tue Sep 20 12:10:44 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 20 12:10:44 2011] [debug] 200 OK (0.173549s, 5.762/s).
+[Tue Sep 20 12:10:48 2011] [debug] GET /letter/%D0%9A (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:10:48 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:10:48 2011] [debug] 200 OK (0.085427s, 11.706/s).
+[Tue Sep 20 12:10:49 2011] [debug] GET /letter/%D0%97 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:10:49 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:10:49 2011] [debug] 200 OK (0.090102s, 11.099/s).
+[Tue Sep 20 12:10:50 2011] [debug] GET /letter/%D0%96 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:10:50 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:10:50 2011] [debug] 200 OK (0.084823s, 11.789/s).
+[Tue Sep 20 12:10:50 2011] [debug] GET /letter/%D0%93 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:10:50 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:10:50 2011] [debug] 200 OK (0.085490s, 11.697/s).
+[Tue Sep 20 12:10:51 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:10:51 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:10:51 2011] [debug] 200 OK (0.088161s, 11.343/s).
+[Tue Sep 20 12:19:56 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 12:19:56 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:19:56 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:19:56 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:19:56 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:19:56 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 12:19:56 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 12:19:56 2011] [debug] Rendering inline template.
+[Tue Sep 20 12:19:56 2011] [debug] 500 Internal Server Error (0.258397s, 3.870/s).
+[Tue Sep 20 12:19:56 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:24:35 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 12:24:35 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:24:35 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:24:36 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:24:36 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:24:36 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 12:24:36 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 12:24:36 2011] [debug] Rendering inline template.
+[Tue Sep 20 12:24:36 2011] [debug] 500 Internal Server Error (0.641097s, 1.560/s).
+[Tue Sep 20 12:24:36 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:24:57 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:24:57 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:24:57 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:24:57 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:24:57 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 12:24:57 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 12:24:57 2011] [debug] 500 Internal Server Error (0.211318s, 4.732/s).
+[Tue Sep 20 12:24:57 2011] [error] Can't use string ("FbM::Model::Base") as a HASH ref while "strict refs" in use at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:25:00 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 12:25:00 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:25:00 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:25:00 2011] [error] Type of argument to keys on reference must be unblessed hashref or arrayref at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:25:00 2011] [error] Type of argument to keys on reference must be unblessed hashref or arrayref at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:25:00 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 12:25:00 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 12:25:00 2011] [debug] Rendering inline template.
+[Tue Sep 20 12:25:01 2011] [debug] 500 Internal Server Error (0.243475s, 4.107/s).
+[Tue Sep 20 12:25:01 2011] [error] Type of argument to keys on reference must be unblessed hashref or arrayref at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:25:04 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:25:04 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:25:04 2011] [error] Type of argument to keys on reference must be unblessed hashref or arrayref at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:25:04 2011] [error] Type of argument to keys on reference must be unblessed hashref or arrayref at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:25:04 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 12:25:04 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 12:25:04 2011] [debug] 500 Internal Server Error (0.179586s, 5.568/s).
+[Tue Sep 20 12:25:04 2011] [error] Type of argument to keys on reference must be unblessed hashref or arrayref at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:25:15 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:25:15 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:25:15 2011] [error] Type of argument to keys on reference must be unblessed hashref or arrayref at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:25:15 2011] [error] Type of argument to keys on reference must be unblessed hashref or arrayref at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:25:15 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 12:25:15 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 12:25:15 2011] [debug] 500 Internal Server Error (0.181616s, 5.506/s).
+[Tue Sep 20 12:25:15 2011] [error] Type of argument to keys on reference must be unblessed hashref or arrayref at script/../lib/FbM/Model/Base.pm line 29.
+
+[Tue Sep 20 12:25:17 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 12:25:17 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:25:17 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:25:17 2011] [debug] Rendering template "Letter/list.html.ep".
+[Tue Sep 20 12:25:17 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 20 12:25:17 2011] [debug] 200 OK (0.465164s, 2.150/s).
+[Tue Sep 20 12:25:26 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:25:26 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:25:26 2011] [debug] 200 OK (0.089255s, 11.204/s).
+[Tue Sep 20 12:29:32 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 12:29:32 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:29:32 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:29:32 2011] [debug] Rendering template "Letter/list.html.ep".
+[Tue Sep 20 12:29:32 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 20 12:29:32 2011] [debug] 200 OK (0.235151s, 4.253/s).
+[Tue Sep 20 12:29:34 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:29:34 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:29:34 2011] [debug] 200 OK (0.085295s, 11.724/s).
+[Tue Sep 20 12:29:36 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:29:36 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:29:36 2011] [debug] 200 OK (0.102019s, 9.802/s).
+[Tue Sep 20 12:30:17 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 12:30:17 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:30:17 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:30:17 2011] [debug] Rendering template "Letter/list.html.ep".
+[Tue Sep 20 12:30:17 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 20 12:30:17 2011] [debug] 200 OK (0.172753s, 5.789/s).
+[Tue Sep 20 12:30:19 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:30:19 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:30:19 2011] [debug] 200 OK (0.113026s, 8.848/s).
+[Tue Sep 20 12:30:20 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:30:20 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:30:20 2011] [debug] 200 OK (0.090203s, 11.086/s).
+[Tue Sep 20 12:30:21 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:30:21 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:30:21 2011] [debug] 200 OK (0.087666s, 11.407/s).
+[Tue Sep 20 12:30:23 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:30:23 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:30:23 2011] [debug] 200 OK (0.086037s, 11.623/s).
+[Tue Sep 20 12:30:24 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:30:24 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:30:24 2011] [debug] 200 OK (0.097346s, 10.273/s).
+[Tue Sep 20 12:30:27 2011] [debug] GET /letter/%D0%9D (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:30:27 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:30:27 2011] [debug] 200 OK (0.084889s, 11.780/s).
+[Tue Sep 20 12:31:21 2011] [debug] GET /letter/%D0%9A (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:21 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:21 2011] [debug] 200 OK (0.081757s, 12.231/s).
+[Tue Sep 20 12:31:23 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:23 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:23 2011] [debug] 200 OK (0.084003s, 11.904/s).
+[Tue Sep 20 12:31:24 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:24 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:24 2011] [debug] 200 OK (0.081944s, 12.203/s).
+[Tue Sep 20 12:31:25 2011] [debug] GET /letter/%D0%91 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:25 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:26 2011] [debug] 200 OK (0.083598s, 11.962/s).
+[Tue Sep 20 12:31:27 2011] [debug] GET /letter/%D0%AE (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:27 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:27 2011] [debug] 200 OK (0.084877s, 11.782/s).
+[Tue Sep 20 12:31:27 2011] [debug] GET /letter/%D0%AD (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:27 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:27 2011] [debug] 200 OK (0.083491s, 11.977/s).
+[Tue Sep 20 12:31:28 2011] [debug] GET /letter/%D0%A9 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:28 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:28 2011] [debug] 200 OK (0.084323s, 11.859/s).
+[Tue Sep 20 12:31:28 2011] [debug] GET /letter/%D0%A8 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:28 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:28 2011] [debug] 200 OK (0.083349s, 11.998/s).
+[Tue Sep 20 12:31:29 2011] [debug] GET /letter/%D0%A7 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:29 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:29 2011] [debug] 200 OK (0.081876s, 12.214/s).
+[Tue Sep 20 12:31:30 2011] [debug] GET /letter/%D0%92 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:30 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:30 2011] [debug] 200 OK (0.082705s, 12.091/s).
+[Tue Sep 20 12:31:31 2011] [debug] GET /letter/%D0%93 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:31 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:31 2011] [debug] 200 OK (0.082850s, 12.070/s).
+[Tue Sep 20 12:31:31 2011] [debug] GET /letter/%D0%94 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:31 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:31 2011] [debug] 200 OK (0.083314s, 12.003/s).
+[Tue Sep 20 12:31:32 2011] [debug] GET /letter/%D0%96 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:32 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:32 2011] [debug] 200 OK (0.081336s, 12.295/s).
+[Tue Sep 20 12:31:32 2011] [debug] GET /letter/%D0%97 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:32 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:32 2011] [debug] 200 OK (0.085350s, 11.716/s).
+[Tue Sep 20 12:31:33 2011] [debug] GET /letter/%D0%98 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:33 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:33 2011] [debug] 200 OK (0.083907s, 11.918/s).
+[Tue Sep 20 12:31:33 2011] [debug] GET /letter/%D0%9B (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:33 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:33 2011] [debug] 200 OK (0.086255s, 11.594/s).
+[Tue Sep 20 12:31:34 2011] [debug] GET /letter/%D0%9C (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:34 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:34 2011] [debug] 200 OK (0.089263s, 11.203/s).
+[Tue Sep 20 12:31:34 2011] [debug] GET /letter/%D0%9D (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:34 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:34 2011] [debug] 200 OK (0.093705s, 10.672/s).
+[Tue Sep 20 12:31:35 2011] [debug] GET /letter/%D0%9E (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:35 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:35 2011] [debug] 200 OK (0.083372s, 11.994/s).
+[Tue Sep 20 12:31:36 2011] [debug] GET /letter/%D0%9F (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:36 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:36 2011] [debug] 200 OK (0.102249s, 9.780/s).
+[Tue Sep 20 12:31:37 2011] [debug] GET /letter/%D0%A1 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:37 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:37 2011] [debug] 200 OK (0.086107s, 11.613/s).
+[Tue Sep 20 12:31:38 2011] [debug] GET /letter/%D0%A2 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:38 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:38 2011] [debug] 200 OK (0.082230s, 12.161/s).
+[Tue Sep 20 12:31:39 2011] [debug] GET /letter/%D0%A3 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 12:31:39 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 12:31:39 2011] [debug] 200 OK (0.082418s, 12.133/s).
+[Tue Sep 20 13:03:28 2011] [debug] GET /letter/%D0%A3 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 13:03:29 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 13:03:39 2011] [debug] 200 OK (10.425144s, 0.096/s).
+[Tue Sep 20 13:50:02 2011] [debug] GET /letter/%D0%A3 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 13:50:02 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 13:50:02 2011] [debug] 200 OK (0.096625s, 10.349/s).
+[Tue Sep 20 13:50:04 2011] [debug] GET /letter/%D0%A3 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 13:50:04 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 13:50:04 2011] [debug] 200 OK (0.096667s, 10.345/s).
+[Tue Sep 20 13:52:34 2011] [debug] GET /letter/%D0%A3 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 13:52:34 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 13:52:34 2011] [debug] 200 OK (0.100573s, 9.943/s).
+[Tue Sep 20 13:52:36 2011] [debug] GET /letter/%D0%A5 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 13:52:36 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 13:52:37 2011] [debug] 200 OK (0.107038s, 9.342/s).
+[Tue Sep 20 14:07:53 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 14:07:53 2011] [debug] GET /letter/%D0%A5 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 14:07:53 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 14:07:54 2011] [debug] Rendering template "Letter/list.html.ep".
+[Tue Sep 20 14:07:54 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 20 14:07:54 2011] [debug] 200 OK (1.026067s, 0.975/s).
+[Tue Sep 20 14:07:56 2011] [debug] GET /letter/%D0%A5 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 14:07:56 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 14:07:56 2011] [debug] 200 OK (0.085032s, 11.760/s).
+[Tue Sep 20 14:07:57 2011] [debug] GET /letter/%D0%A5 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 14:07:57 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 14:07:57 2011] [debug] 200 OK (0.087774s, 11.393/s).
+[Tue Sep 20 14:07:58 2011] [debug] GET /letter/%D0%A3 (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 14:07:58 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 14:07:58 2011] [debug] 200 OK (0.097169s, 10.291/s).
+[Tue Sep 20 14:07:59 2011] [debug] GET /letter/%D0%9F (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 14:07:59 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 14:07:59 2011] [debug] 200 OK (0.084396s, 11.849/s).
+[Tue Sep 20 14:08:23 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 14:08:23 2011] [debug] GET /letter/%D0%9F (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 14:08:23 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 14:08:23 2011] [debug] Rendering template "Letter/list.html.ep".
+[Tue Sep 20 14:08:23 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 20 14:08:23 2011] [debug] 200 OK (0.219821s, 4.549/s).
+[Tue Sep 20 14:10:46 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 14:10:46 2011] [debug] GET /letter/%D0%9F (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 14:10:46 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 14:10:46 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Tue Sep 20 14:10:46 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Tue Sep 20 14:10:46 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 14:10:46 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 14:10:46 2011] [debug] Rendering inline template.
+[Tue Sep 20 14:10:47 2011] [debug] 500 Internal Server Error (0.469017s, 2.132/s).
+[Tue Sep 20 14:10:47 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Tue Sep 20 14:10:57 2011] [debug] GET /letter/%D0%9F (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 14:10:57 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 14:10:57 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Tue Sep 20 14:10:57 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Tue Sep 20 14:10:57 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 14:10:57 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 14:10:57 2011] [debug] 500 Internal Server Error (0.169131s, 5.913/s).
+[Tue Sep 20 14:10:57 2011] [error] Undefined subroutine &FbM::Model::Base::select called at script/../lib/FbM/Controller/Letter.pm line 14.
+
+[Tue Sep 20 14:11:44 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 14:11:44 2011] [debug] GET /letter/%D0%9F (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 14:11:44 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 14:11:44 2011] [error] Can't locate object method "st=HASH(0x767b70c)" via package "DBI" at script/../lib/FbM/Model/Base.pm line 33.
+
+[Tue Sep 20 14:11:44 2011] [error] Can't locate object method "st=HASH(0x767b70c)" via package "DBI" at script/../lib/FbM/Model/Base.pm line 33.
+
+[Tue Sep 20 14:11:44 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 14:11:44 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 14:11:44 2011] [debug] Rendering inline template.
+[Tue Sep 20 14:11:44 2011] [debug] 500 Internal Server Error (0.226085s, 4.423/s).
+[Tue Sep 20 14:11:44 2011] [error] Can't locate object method "st=HASH(0x767b70c)" via package "DBI" at script/../lib/FbM/Model/Base.pm line 33.
+
+[Tue Sep 20 14:11:47 2011] [debug] GET /letter/%D0%9F (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 14:11:47 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 14:11:47 2011] [error] Can't locate object method "st=HASH(0x76e0ffc)" via package "DBI" at script/../lib/FbM/Model/Base.pm line 33.
+
+[Tue Sep 20 14:11:47 2011] [error] Can't locate object method "st=HASH(0x76e0ffc)" via package "DBI" at script/../lib/FbM/Model/Base.pm line 33.
+
+[Tue Sep 20 14:11:47 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 14:11:47 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 14:11:47 2011] [debug] 500 Internal Server Error (0.190564s, 5.248/s).
+[Tue Sep 20 14:11:47 2011] [error] Can't locate object method "st=HASH(0x76e0ffc)" via package "DBI" at script/../lib/FbM/Model/Base.pm line 33.
+
+[Tue Sep 20 14:11:54 2011] [debug] GET /letter/%D0%9F (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 14:11:54 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 14:11:54 2011] [error] Can't locate object method "st=HASH(0x764c034)" via package "DBI" at script/../lib/FbM/Model/Base.pm line 33.
+
+[Tue Sep 20 14:11:54 2011] [error] Can't locate object method "st=HASH(0x764c034)" via package "DBI" at script/../lib/FbM/Model/Base.pm line 33.
+
+[Tue Sep 20 14:11:54 2011] [debug] Template "exception.development.html.ep" not found.
+[Tue Sep 20 14:11:54 2011] [debug] Template "exception.html.ep" not found.
+[Tue Sep 20 14:11:54 2011] [debug] 500 Internal Server Error (0.185556s, 5.389/s).
+[Tue Sep 20 14:11:54 2011] [error] Can't locate object method "st=HASH(0x764c034)" via package "DBI" at script/../lib/FbM/Model/Base.pm line 33.
+
+[Tue Sep 20 14:14:40 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Sep 20 14:14:40 2011] [debug] GET /letter/%D0%9F (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 14:14:40 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 14:14:41 2011] [debug] Rendering template "Letter/list.html.ep".
+[Tue Sep 20 14:14:41 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Sep 20 14:14:41 2011] [debug] 200 OK (0.545089s, 1.835/s).
+[Tue Sep 20 14:14:42 2011] [debug] GET /letter/%D0%9F (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 14:14:42 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 14:14:42 2011] [debug] 200 OK (0.093203s, 10.729/s).
+[Tue Sep 20 15:40:16 2011] [debug] GET /letter/%D0%9F (Mozilla/5.0 (Windows NT 5.1; rv:6.0.2) Gecko/20100101 Firefox/6.0.2).
+[Tue Sep 20 15:40:17 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Sep 20 15:40:22 2011] [debug] 200 OK (6.126921s, 0.163/s).

@@ -14,7 +14,7 @@ sub list{
 	$self -> stash(
 				sign => 'КуКу!!',
 				ABC  => FbM::Model::Base -> alphabet,
-				LIST => FbM::Model::Base -> select(&condition),
+				LIST => FbM::Model::Base -> select("$LET"),
 				MENU => FbM::Model::Base -> build_menu,
 				condition => &condition,
 				sql => FbM::Model::Base -> sql
