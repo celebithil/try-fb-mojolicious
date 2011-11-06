@@ -43,9 +43,10 @@ sub select {
                CAST(lpad(EXTRACT(DAY FROM BIRTHDATE),2,'0') AS varchar(2))||'.'||
                CAST(lpad(EXTRACT(MONTH FROM BIRTHDATE),2,'0') AS varchar(2))||'.'||
                EXTRACT(YEAR FROM BIRTHDATE) AS BIRTHDATE 
-               FROM MAIN WHERE SUBSTRING (F FROM 1 FOR 1) LIKE 'Ф'
+               FROM MAIN
 				ORDER BY F COLLATE UNICODE, N COLLATE UNICODE, P COLLATE UNICODE"
     );
+    #FROM MAIN WHERE SUBSTRING (F FROM 1 FOR 1) LIKE 'Ф'
     push @bind_values, $page_info->entries_per_page, $page_info->first - 1;
 	$sth->execute(@bind_values);
     my @list =
