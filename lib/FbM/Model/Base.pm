@@ -11,7 +11,6 @@ use Data::Pageset;
 
 my $sth;
 my $page_info;
-my $sql;
 sub alphabet {
     my $class = shift;
     $sth = FbM::Model->dbh->prepare(
@@ -28,29 +27,26 @@ sub select {
     my ($class, $letter) = @_;
     my @bind_values;
 	 $page_info = &page_parameters;
-	 $sql = $class;
-	 my $query;	 
-	 if  ($letter) { 
-	 $query = "SELECT FIRST ? SKIP ?
-				ID, F, N, P, ADR,
-               CAST(lpad(EXTRACT(DAY FROM BIRTHDATE),2,'0') AS varchar(2))||'.'||
-               CAST(lpad(EXTRACT(MONTH FROM BIRTHDATE),2,'0') AS varchar(2))||'.'||
-               EXTRACT(YEAR FROM BIRTHDATE) AS BIRTHDATE 
-               FROM MAIN WHERE SUBSTRING (F FROM 1 FOR 1) LIKE '$letter'
-	 				ORDER BY F COLLATE UNICODE, N COLLATE UNICODE, P COLLATE UNICODE";
-	}			 
-	else {
+	 my ($query, $condition);
+	 if  ($letter) {
+	     $condition = "MAIN WHERE SUBSTRING (F FROM 1 FOR 1) LIKE '$letter'";
+	 }			 
+	 else {
+	     $condition = '';
+	 }
 	$query = "SELECT FIRST ? SKIP ?
 				ID, F, N, P, ADR,
                CAST(lpad(EXTRACT(DAY FROM BIRTHDATE),2,'0') AS varchar(2))||'.'||
                CAST(lpad(EXTRACT(MONTH FROM BIRTHDATE),2,'0') AS varchar(2))||'.'||
                EXTRACT(YEAR FROM BIRTHDATE) AS BIRTHDATE 
-               FROM MAIN
+               FROM MAIN $condition
 	 				ORDER BY F COLLATE UNICODE, N COLLATE UNICODE, P COLLATE UNICODE";
-	}
 	
 	
-	$sth = FbM::Model->dbh->prepare($query);
+
+
+
+    $sth = FbM::Model->dbh->prepare($query);
     #FROM MAIN WHERE SUBSTRING (F FROM 1 FOR 1) LIKE 'Ф'
     push @bind_values, $page_info->entries_per_page, $page_info->first - 1;
 	$sth->execute(@bind_values);
@@ -91,7 +87,6 @@ sub build_menu{
 
 }
 
-sub sql{ return $sql};
 
 1;
 __END__
