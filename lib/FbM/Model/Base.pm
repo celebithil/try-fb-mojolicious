@@ -1,6 +1,4 @@
 package FbM::Model::Base;
-use strict;
-use warnings;
 use v5.14;
 use utf8;
 use Encode qw /decode/;
@@ -27,25 +25,32 @@ sub alphabet {
 }
 
 sub select {
-    my ($class) = shift;
+    my ($class, $letter) = @_;
     my @bind_values;
-	$page_info = &page_parameters;
-	$sql = $class;
-	
-	
-	
-	
-	
-	$sth = FbM::Model->dbh->prepare(
-    
-        "SELECT FIRST ? SKIP ?
+	 $page_info = &page_parameters;
+	 $sql = $class;
+	 my $query;	 
+	 if  ($letter) { 
+	 $query = "SELECT FIRST ? SKIP ?
+				ID, F, N, P, ADR,
+               CAST(lpad(EXTRACT(DAY FROM BIRTHDATE),2,'0') AS varchar(2))||'.'||
+               CAST(lpad(EXTRACT(MONTH FROM BIRTHDATE),2,'0') AS varchar(2))||'.'||
+               EXTRACT(YEAR FROM BIRTHDATE) AS BIRTHDATE 
+               FROM MAIN WHERE SUBSTRING (F FROM 1 FOR 1) LIKE '$letter'
+	 				ORDER BY F COLLATE UNICODE, N COLLATE UNICODE, P COLLATE UNICODE";
+	}			 
+	else {
+	$query = "SELECT FIRST ? SKIP ?
 				ID, F, N, P, ADR,
                CAST(lpad(EXTRACT(DAY FROM BIRTHDATE),2,'0') AS varchar(2))||'.'||
                CAST(lpad(EXTRACT(MONTH FROM BIRTHDATE),2,'0') AS varchar(2))||'.'||
                EXTRACT(YEAR FROM BIRTHDATE) AS BIRTHDATE 
                FROM MAIN
-				ORDER BY F COLLATE UNICODE, N COLLATE UNICODE, P COLLATE UNICODE"
-    );
+	 				ORDER BY F COLLATE UNICODE, N COLLATE UNICODE, P COLLATE UNICODE";
+	}
+	
+	
+	$sth = FbM::Model->dbh->prepare($query);
     #FROM MAIN WHERE SUBSTRING (F FROM 1 FOR 1) LIKE 'Ф'
     push @bind_values, $page_info->entries_per_page, $page_info->first - 1;
 	$sth->execute(@bind_values);
@@ -69,7 +74,7 @@ sub page_parameters{
 	my ( $class, @bind_values ) = shift;
 	my $page_number = 1; #temporary!!!!
 	my @total_entries = FbM::Model->dbh->selectrow_array("SELECT COUNT(*) FROM MAIN", undef, @bind_values);
-	my $page_info = Data::Pageset->new(
+	$page_info = Data::Pageset->new(
             {
                 'total_entries'    => @total_entries,
                 'entries_per_page' => 20,

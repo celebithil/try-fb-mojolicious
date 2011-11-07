@@ -45,3 +45,340 @@
 [Mon Nov  7 02:46:19 2011] [debug] GET /letter/%D0%96 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
 [Mon Nov  7 02:46:19 2011] [debug] Dispatching "FbM::Controller::Letter->list".
 [Mon Nov  7 02:46:19 2011] [debug] 200 OK (0.937079s, 1.067/s).
+[Mon Nov  7 02:49:07 2011] [info] Server listening (http://*:3000)
+[Mon Nov  7 02:54:02 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  7 02:54:02 2011] [debug] GET /letter/%D0%96 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 02:54:02 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 02:54:03 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Nov  7 02:54:03 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Nov  7 02:54:03 2011] [debug] 200 OK (1.125031s, 0.889/s).
+[Mon Nov  7 02:54:06 2011] [debug] GET /letter/%D0%96 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 02:54:06 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 02:54:07 2011] [debug] 200 OK (1.243941s, 0.804/s).
+[Mon Nov  7 02:55:02 2011] [info] Server listening (http://*:3000)
+[Mon Nov  7 02:55:10 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  7 02:55:10 2011] [debug] GET /letter/%D0%96 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 02:55:10 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 02:55:10 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Nov  7 02:55:11 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Nov  7 02:55:11 2011] [debug] 200 OK (0.734948s, 1.361/s).
+[Mon Nov  7 02:57:20 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 02:57:20 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 02:57:20 2011] [debug] 200 OK (0.357860s, 2.794/s).
+[Mon Nov  7 02:57:22 2011] [debug] GET /letter/%D0%94 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 02:57:22 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 02:57:22 2011] [debug] 200 OK (0.340518s, 2.937/s).
+[Mon Nov  7 02:57:24 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 02:57:24 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 02:57:24 2011] [debug] 200 OK (0.341632s, 2.927/s).
+[Mon Nov  7 03:08:04 2011] [info] Server listening (http://*:3000)
+[Mon Nov  7 03:08:12 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  7 03:08:12 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:08:12 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:08:13 2011] [error] Can't call method "execute" on an undefined value at ../lib/FbM/Model/Base.pm line 62.
+
+[Mon Nov  7 03:08:13 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:08:13 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:08:13 2011] [debug] Rendering inline template.
+[Mon Nov  7 03:08:13 2011] [debug] 500 Internal Server Error (0.655985s, 1.524/s).
+[Mon Nov  7 03:08:13 2011] [error] Can't call method "execute" on an undefined value at ../lib/FbM/Model/Base.pm line 62.
+
+[Mon Nov  7 03:08:16 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:08:16 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:08:17 2011] [error] Can't call method "execute" on an undefined value at ../lib/FbM/Model/Base.pm line 62.
+
+[Mon Nov  7 03:08:17 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:08:17 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:08:17 2011] [debug] 500 Internal Server Error (0.281613s, 3.551/s).
+[Mon Nov  7 03:08:17 2011] [error] Can't call method "execute" on an undefined value at ../lib/FbM/Model/Base.pm line 62.
+
+[Mon Nov  7 03:14:13 2011] [info] Server listening (http://*:3000)
+[Mon Nov  7 03:14:17 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  7 03:14:17 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:14:17 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:14:18 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Nov  7 03:14:18 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Nov  7 03:14:18 2011] [debug] 200 OK (0.802838s, 1.246/s).
+[Mon Nov  7 03:14:21 2011] [debug] GET /edit/5326 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:14:21 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Nov  7 03:14:21 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Nov  7 03:14:21 2011] [debug] Rendering inline template.
+[Mon Nov  7 03:14:21 2011] [debug] 404 Not Found (0.047023s, 21.266/s).
+[Mon Nov  7 03:14:24 2011] [debug] GET /letter/%D0%9A (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:14:24 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:14:25 2011] [debug] 200 OK (0.447866s, 2.233/s).
+[Mon Nov  7 03:14:27 2011] [debug] GET /letter/%D0%A4 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:14:27 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:14:27 2011] [debug] 200 OK (0.353238s, 2.831/s).
+[Mon Nov  7 03:14:28 2011] [debug] GET /letter/%D0%A5 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:14:28 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:14:29 2011] [debug] 200 OK (0.369814s, 2.704/s).
+[Mon Nov  7 03:14:31 2011] [debug] GET /letter/%D0%91 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:14:31 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:14:32 2011] [debug] 200 OK (0.414921s, 2.410/s).
+[Mon Nov  7 03:14:34 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:14:34 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:14:35 2011] [debug] 200 OK (0.381816s, 2.619/s).
+[Mon Nov  7 03:14:36 2011] [debug] GET /letter/%D0%A6 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:14:36 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:14:36 2011] [debug] 200 OK (0.345199s, 2.897/s).
+[Mon Nov  7 03:14:38 2011] [debug] GET /letter/%D0%A0 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:14:38 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:14:39 2011] [debug] 200 OK (0.378041s, 2.645/s).
+[Mon Nov  7 03:14:40 2011] [debug] GET /letter/%D0%9D (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:14:40 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:14:41 2011] [debug] 200 OK (0.370625s, 2.698/s).
+[Mon Nov  7 03:14:50 2011] [debug] GET /letter/%D0%91 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:14:50 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:14:51 2011] [debug] 200 OK (0.448293s, 2.231/s).
+[Mon Nov  7 03:14:53 2011] [debug] GET /page/2 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:14:53 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Nov  7 03:14:53 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Nov  7 03:14:53 2011] [debug] 404 Not Found (0.022656s, 44.138/s).
+[Mon Nov  7 03:14:59 2011] [debug] GET /letter/%D0%91 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:14:59 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:14:59 2011] [debug] 200 OK (0.399138s, 2.505/s).
+[Mon Nov  7 03:16:39 2011] [info] Server listening (http://*:3000)
+[Mon Nov  7 03:16:45 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  7 03:16:45 2011] [debug] GET /letter/%D0%91 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:16:45 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:16:45 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Nov  7 03:16:45 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:16:45 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:16:45 2011] [debug] Rendering inline template.
+[Mon Nov  7 03:16:46 2011] [debug] 500 Internal Server Error (0.487643s, 2.051/s).
+[Mon Nov  7 03:16:46 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Nov  7 03:17:03 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:17:03 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Nov  7 03:17:03 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:17:03 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:17:03 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:17:03 2011] [debug] Rendering inline template.
+[Mon Nov  7 03:17:04 2011] [debug] 500 Internal Server Error (0.297607s, 3.360/s).
+[Mon Nov  7 03:17:04 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:17:32 2011] [info] Server listening (http://*:3000)
+[Mon Nov  7 03:17:39 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  7 03:17:39 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:17:39 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Nov  7 03:17:40 2011] [debug] Rendering template "All/list.html.ep".
+[Mon Nov  7 03:17:40 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Nov  7 03:17:40 2011] [debug] 200 OK (0.725066s, 1.379/s).
+[Mon Nov  7 03:17:43 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:17:43 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:17:43 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Nov  7 03:17:43 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Nov  7 03:17:43 2011] [debug] 200 OK (0.419844s, 2.382/s).
+[Mon Nov  7 03:18:10 2011] [debug] GET /letter/%D0%97 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:18:10 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:18:10 2011] [debug] 200 OK (0.368771s, 2.712/s).
+[Mon Nov  7 03:18:12 2011] [debug] GET /letter/%D0%A2 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:18:12 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:18:12 2011] [debug] 200 OK (0.380377s, 2.629/s).
+[Mon Nov  7 03:18:14 2011] [debug] GET /letter/%D0%AF (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:18:14 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:18:14 2011] [debug] 200 OK (0.377726s, 2.647/s).
+[Mon Nov  7 03:20:02 2011] [info] Server listening (http://*:3000)
+[Mon Nov  7 03:20:09 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  7 03:20:09 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:20:09 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Nov  7 03:20:09 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:20:09 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:20:09 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:20:09 2011] [debug] Rendering inline template.
+[Mon Nov  7 03:20:09 2011] [debug] 500 Internal Server Error (0.450230s, 2.221/s).
+[Mon Nov  7 03:20:09 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:20:13 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:20:13 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Nov  7 03:20:13 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:20:13 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:20:13 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:20:13 2011] [debug] 500 Internal Server Error (0.246831s, 4.051/s).
+[Mon Nov  7 03:20:13 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:21:40 2011] [info] Server listening (http://*:3000)
+[Mon Nov  7 03:21:48 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  7 03:21:48 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:21:48 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Nov  7 03:21:48 2011] [error] Can't call method "execute" on an undefined value at ../lib/FbM/Model/Base.pm line 58.
+
+[Mon Nov  7 03:21:48 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:21:48 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:21:48 2011] [debug] Rendering inline template.
+[Mon Nov  7 03:21:48 2011] [debug] 500 Internal Server Error (0.469554s, 2.130/s).
+[Mon Nov  7 03:21:48 2011] [error] Can't call method "execute" on an undefined value at ../lib/FbM/Model/Base.pm line 58.
+
+[Mon Nov  7 03:21:53 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:21:53 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Nov  7 03:21:53 2011] [error] Can't call method "execute" on an undefined value at ../lib/FbM/Model/Base.pm line 58.
+
+[Mon Nov  7 03:21:53 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:21:53 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:21:53 2011] [debug] 500 Internal Server Error (0.282551s, 3.539/s).
+[Mon Nov  7 03:21:53 2011] [error] Can't call method "execute" on an undefined value at ../lib/FbM/Model/Base.pm line 58.
+
+[Mon Nov  7 03:22:50 2011] [info] Server listening (http://*:3000)
+[Mon Nov  7 03:23:13 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  7 03:23:13 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:23:13 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Nov  7 03:23:13 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:23:13 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:23:13 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:23:13 2011] [debug] Rendering inline template.
+[Mon Nov  7 03:23:13 2011] [debug] 500 Internal Server Error (0.390502s, 2.561/s).
+[Mon Nov  7 03:23:13 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:24:06 2011] [info] Server listening (http://*:3000)
+[Mon Nov  7 03:24:16 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  7 03:24:16 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:24:16 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Nov  7 03:24:16 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:24:16 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:24:16 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:24:16 2011] [debug] Rendering inline template.
+[Mon Nov  7 03:24:17 2011] [debug] 500 Internal Server Error (0.411169s, 2.432/s).
+[Mon Nov  7 03:24:17 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:26:27 2011] [info] Server listening (http://*:3000)
+[Mon Nov  7 03:26:36 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  7 03:26:36 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:26:36 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Nov  7 03:26:36 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:26:36 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:26:36 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:26:36 2011] [debug] Rendering inline template.
+[Mon Nov  7 03:26:36 2011] [debug] 500 Internal Server Error (0.589284s, 1.697/s).
+[Mon Nov  7 03:26:36 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:26:40 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:26:40 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Nov  7 03:26:40 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:26:40 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:26:40 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:26:40 2011] [debug] 500 Internal Server Error (0.242595s, 4.122/s).
+[Mon Nov  7 03:26:40 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:27:39 2011] [info] Server listening (http://*:3000)
+[Mon Nov  7 03:27:47 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  7 03:27:47 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:27:47 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Nov  7 03:27:47 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:27:47 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:27:47 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:27:47 2011] [debug] Rendering inline template.
+[Mon Nov  7 03:27:47 2011] [debug] 500 Internal Server Error (0.535181s, 1.869/s).
+[Mon Nov  7 03:27:47 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:27:49 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:27:49 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Nov  7 03:27:49 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:27:49 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:27:49 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:27:49 2011] [debug] 500 Internal Server Error (0.242333s, 4.127/s).
+[Mon Nov  7 03:27:49 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:28:55 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:28:55 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:28:56 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Nov  7 03:28:56 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:28:56 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:28:56 2011] [debug] Rendering inline template.
+[Mon Nov  7 03:28:56 2011] [debug] 500 Internal Server Error (0.298119s, 3.354/s).
+[Mon Nov  7 03:28:56 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Nov  7 03:28:59 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:28:59 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:28:59 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Nov  7 03:28:59 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:28:59 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:28:59 2011] [debug] 500 Internal Server Error (0.266572s, 3.751/s).
+[Mon Nov  7 03:28:59 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Nov  7 03:29:16 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:29:16 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:29:16 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Nov  7 03:29:16 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:29:16 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:29:16 2011] [debug] 500 Internal Server Error (0.241909s, 4.134/s).
+[Mon Nov  7 03:29:16 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Nov  7 03:29:28 2011] [info] Server listening (http://*:3000)
+[Mon Nov  7 03:29:39 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  7 03:29:39 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:29:39 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:29:39 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Nov  7 03:29:39 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:29:39 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:29:39 2011] [debug] Rendering inline template.
+[Mon Nov  7 03:29:40 2011] [debug] 500 Internal Server Error (0.491820s, 2.033/s).
+[Mon Nov  7 03:29:40 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Nov  7 03:30:40 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  7 03:30:40 2011] [debug] GET /letter/%D0%90 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:30:40 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:30:40 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Nov  7 03:30:40 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:30:40 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:30:40 2011] [debug] Rendering inline template.
+[Mon Nov  7 03:30:40 2011] [debug] 500 Internal Server Error (0.387482s, 2.581/s).
+[Mon Nov  7 03:30:40 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Nov  7 03:34:06 2011] [info] Server listening (http://*:3000)
+[Mon Nov  7 03:34:11 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  7 03:34:11 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:34:11 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Nov  7 03:34:12 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:34:12 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:34:12 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:34:12 2011] [debug] Rendering inline template.
+[Mon Nov  7 03:34:12 2011] [debug] 500 Internal Server Error (0.496483s, 2.014/s).
+[Mon Nov  7 03:34:12 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/All.pm line 11.
+
+[Mon Nov  7 03:36:47 2011] [debug] GET /letter/%D0%96 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:36:47 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:36:47 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Nov  7 03:36:47 2011] [debug] Template "exception.development.html.ep" not found.
+[Mon Nov  7 03:36:47 2011] [debug] Template "exception.html.ep" not found.
+[Mon Nov  7 03:36:47 2011] [debug] Rendering inline template.
+[Mon Nov  7 03:36:47 2011] [debug] 500 Internal Server Error (0.295818s, 3.380/s).
+[Mon Nov  7 03:36:47 2011] [error] Undefined subroutine &FbM::Model::Base::select called at ../lib/FbM/Controller/Letter.pm line 14.
+
+[Mon Nov  7 03:37:16 2011] [info] Server listening (http://*:3000)
+[Mon Nov  7 03:37:22 2011] [debug] Your secret passphrase needs to be changed!!!
+[Mon Nov  7 03:37:22 2011] [debug] GET /letter/%D0%96 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:37:22 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Mon Nov  7 03:37:22 2011] [debug] Rendering template "Letter/list.html.ep".
+[Mon Nov  7 03:37:23 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Nov  7 03:37:23 2011] [debug] 200 OK (0.788679s, 1.268/s).
+[Mon Nov  7 03:37:33 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:37:33 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Nov  7 03:37:34 2011] [debug] Rendering template "All/list.html.ep".
+[Mon Nov  7 03:37:34 2011] [debug] Rendering template "layouts/default.html.ep".
+[Mon Nov  7 03:37:34 2011] [debug] 200 OK (0.946459s, 1.057/s).
+[Mon Nov  7 03:37:53 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:37:53 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Mon Nov  7 03:37:54 2011] [debug] 200 OK (1.241079s, 0.806/s).
+[Mon Nov  7 03:37:58 2011] [debug] GET /page/2 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Mon Nov  7 03:37:58 2011] [debug] Template "not_found.development.html.ep" not found.
+[Mon Nov  7 03:37:58 2011] [debug] Template "not_found.html.ep" not found.
+[Mon Nov  7 03:37:58 2011] [debug] Rendering inline template.
+[Mon Nov  7 03:37:58 2011] [debug] 404 Not Found (0.045205s, 22.121/s).
