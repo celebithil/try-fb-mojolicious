@@ -452,3 +452,22 @@ Compilation failed in require at (eval 269) line 1.
 [Tue Nov  8 00:56:16 2011] [debug] Template "Page/list.html.ep" not found.
 [Tue Nov  8 00:56:16 2011] [debug] Template "Page/list.html.ep" not found.
 [Tue Nov  8 00:56:16 2011] [debug] Nothing has been rendered, assuming delayed response.
+[Tue Nov  8 01:04:28 2011] [info] Server listening (http://*:3000)
+[Tue Nov  8 01:04:38 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Nov  8 01:04:38 2011] [debug] GET / (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Tue Nov  8 01:04:38 2011] [debug] Dispatching "FbM::Controller::All->list".
+[Tue Nov  8 01:04:39 2011] [debug] Rendering template "All/list.html.ep".
+[Tue Nov  8 01:04:39 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Nov  8 01:04:39 2011] [debug] 200 OK (1.165879s, 0.858/s).
+[Tue Nov  8 01:04:42 2011] [debug] GET /letter/%D0%93 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Tue Nov  8 01:04:42 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Nov  8 01:04:42 2011] [debug] Rendering template "Letter/list.html.ep".
+[Tue Nov  8 01:04:42 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Nov  8 01:04:42 2011] [debug] 200 OK (0.356507s, 2.805/s).
+[Tue Nov  8 01:05:15 2011] [info] Server listening (http://*:3000)
+[Tue Nov  8 01:05:20 2011] [debug] Your secret passphrase needs to be changed!!!
+[Tue Nov  8 01:05:20 2011] [debug] GET /letter/%D0%97 (Mozilla/5.0 (X11; FreeBSD i386; rv:7.0.1) Gecko/20100101 Firefox/7.0.1).
+[Tue Nov  8 01:05:20 2011] [debug] Dispatching "FbM::Controller::Letter->list".
+[Tue Nov  8 01:05:20 2011] [debug] Rendering template "Letter/list.html.ep".
+[Tue Nov  8 01:05:20 2011] [debug] Rendering template "layouts/default.html.ep".
+[Tue Nov  8 01:05:20 2011] [debug] 200 OK (0.698045s, 1.433/s).

@@ -15,7 +15,6 @@ sub startup {
 
   # Normal route to controller
   $r->route('/')->to('All#list');
-
   $r->route('/letter/:LET')->to('Letter#list');
   $r->route('/page/:N')->to('Page#list');
   $r->route('/welcome')->to('example#welcome');
