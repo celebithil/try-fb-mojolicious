@@ -8,7 +8,7 @@ my $dbh;
 
 use Mojo::Loader;
 # Reloadable Model
-my $modules = Mojo::Loader->search('FastNotes::Model');
+my $modules = Mojo::Loader->search('FbM::Model');
 for my $module (@$modules) {
     Mojo::Loader->load($module)
 }
